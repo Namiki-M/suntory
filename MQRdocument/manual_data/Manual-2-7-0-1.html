@@ -1,0 +1,769 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>【英語】Manufacturing Quality Requirements</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="icon" href="./favicon.ico">
+  <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/css/vendor/drawer.min.css" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="stylesheet">
+<!--
+	function MM_swapImgRestore() { //v3.0
+		var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+	}
+	function MM_preloadImages() { //v3.0
+		var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+		var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+		if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+	}
+	function MM_findObj(n, d) { //v4.01
+		var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+		d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+		if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+		for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+		if(!x && d.getElementById) x=d.getElementById(n); return x;
+	}
+	function MM_swapImage() { //v3.0
+		var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+		if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+	}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+function showPrintDialog() {
+	window.focus();
+	print();
+}
+
+function showPopup() {
+  window.open(
+    'Result.html?keyword='+encodeURIComponent(document.getElementById('search_box').value),
+    'Result',
+    'left=750,top=200,width=480,height=640,menubar=no,toolbar=no,location=no,resizable=yes,scrollbars=yes'
+  );
+}
+-->
+</script>
+</head>
+
+<body class="drawer drawer--left">
+  <nav class="navbar navbar-expand-md drawer-navbar" role="banner">
+    <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+    </button>
+    <div class="home d-inline d-lg-none">
+      <a href="./index.html">ホーム</a>
+    </div>
+    <form class="form-inline ml-auto" action="javascript:showPopup();" name="search" method="post">
+      <input id="search_box" name="keyword" class="form-control" type="search" placeholder="検索..." aria-label="検索...">
+      <button type="submit" class="btn btn-primary btn-sm" onClick="showPopup();">検索</button>
+    </form>
+  </nav>
+
+  <div class="pc-container">
+
+    <div class="drawer-nav" id="navbar" role="navigation">
+      <ul class="navbar-nav">
+        <li class="nav-item title">
+          【英語】Manufacturing Quality Requirements
+        </li>
+        <li class="nav-item lv1 close opendir(path)"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2.html">1.　Quality Requirements for Production</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0.html">1.1　Raw materials</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-0.html">1.1.1　General requirement for raw materials</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-0-0.html">1.1.1.1　General requirement for raw materials </a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-0-1.html">1.1.1.2　Quality assurance of water and carbon dioxide used as raw materials</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-1.html">1.1.2　Risk evaluation</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-1-0.html">1.1.2.1　Risk evaluation</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1.html">1.2　Packaging</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-0.html">1.2.1　General requirement for packaging</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-0-0.html">1.2.1.1　Packaging approval</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-0-1.html">1.2.1.2　General requirement</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-1.html">1.2.2　Evaluation procedures for packaging approval</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-1-0.html">1.2.2.1　Evaluation procedures for approval</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2.html">1.3　Production</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0.html">1.3.1　General requirement for production processes</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0-0.html">1.3.1.1　Sanitation management and pest control for equipment/buildings</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0-1.html">1.3.1.2　Employee sanitation/Brought-in item management</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0-2.html">1.3.1.3　General requirement for process management</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-1.html">1.3.2　Raw material/packaging receiving</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-1-0.html">1.3.2.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-1-1.html">1.3.2.2　Individual raw materials/packaging</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-2.html">1.3.3　Raw material/packaging storage</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-2-0.html">1.3.3.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-2-1.html">1.3.3.2　Individual raw materials/packaging</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-3.html">1.3.4　Water treatment</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-3-0.html">1.3.4.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-3-1.html">1.3.4.2　Equipment details</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-4.html">1.3.5　Weighing/mixing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-4-0.html">1.3.5.1　Weighing/mixing</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5.html">1.3.6　Contents transfer/Liquid treatment</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-0.html">1.3.6.1　General requirement for contents transfer/liquid treatment equipment</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-1.html">1.3.6.2　Pipes</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-2.html">1.3.6.3　Pumps</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-3.html">1.3.6.4　Measuring instruments (thermometer/manometer)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-4.html">1.3.6.5　Valves</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-5.html">1.3.6.6　Tanks/Agitators</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-6.html">1.3.6.7　Homogenization</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-7.html">1.3.6.8　Liquid sterilization/Heat exchange (including coolers)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-8.html">1.3.6.9　UV sterilizer for contents</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-9.html">1.3.6.10　Line strainers</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-6.html">1.3.7　Preform production</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-6-0.html">1.3.7.1　Injection machine</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-7.html">1.3.8　Blow molding</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-7-0.html">1.3.8.1　Blow molding</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-8.html">1.3.9　Check before using packaging/Packaging transfer/Product transfer</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-8-0.html">1.3.9.1　Check before using packaging</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-8-1.html">1.3.9.2　Packaging/product transfer</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9.html">1.3.10　Empty packaging cleaning/Rinsing/Packaging sterilization</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-0.html">1.3.10.1　Water rinser</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-1.html">1.3.10.2　Air rinser</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-2.html">1.3.10.3　RGB bottle washing machines</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-3.html">1.3.10.4　UV sterilizers for packaging </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10.html">1.3.11　Filling system</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-0.html">1.3.11.1　General requirement for filler</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-1.html">1.3.11.2　Cold filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-2.html">1.3.11.3　Hot filling/nitro hot filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-3.html">1.3.11.4　Aseptic filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-4.html">1.3.11.5　Aseptic filling (paper pack)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-5.html">1.3.11.6　Glass bottle filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-6.html">1.3.11.7　Can filling</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-11.html">1.3.12　Neck rinsing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-11-0.html">1.3.12.1　Neck rinsing</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12.html">1.3.13　Sealing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-0.html">1.3.13.1　Capping</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-1.html">1.3.13.2　Can seaming</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-2.html">1.3.13.3　Crowning</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-3.html">1.3.13.4　Plastic cups</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-4.html">1.3.13.5　Pouch</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13.html">1.3.14　Post-sealing sterilization (retort/tunnel pasteurizer)/warmer</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13-0.html">1.3.14.1　Tunnel pasteurizer/warmer</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13-1.html">1.3.14.2　Retort</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13-2.html">1.3.14.3　Hot filling tilting conveyor sterilization (See the hot filling chapter)</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-14.html">1.3.15　Labeling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-14-0.html">1.3.15.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-14-1.html">1.3.15.2　Individual</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-15.html">1.3.16　BBD coding</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-15-0.html">1.3.16.1　BBD coding</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16.html">1.3.17　Inspection guarantee</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16-0.html">1.3.17.1　Inspection guarantee design</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16-1.html">1.3.17.2　Inspection machines</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16-2.html">1.3.17.3　Inline visual inspection</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-17.html">1.3.18　Shrink packing / carton packing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-17-0.html">1.3.18.1　Shrink packing / carton packing</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-18.html">1.3.19　Palletizing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-18-0.html">1.3.19.1　Palletizing</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-19.html">1.3.20　Warehouse</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-19-0.html">1.3.20.1　Storage environment/Inventory management</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-19-1.html">1.3.20.2　Inspection/Rework</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3.html">1.4　QC (product test, microbe test, decision for lot shipping, laboratory equipment)</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-0.html">1.4.1　Sampling inspection/Monitoring design</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-0-0.html">1.4.1.1　Sampling inspection/Monitoring design</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-0-1.html">1.4.1.2　Design of inspection items before shipment</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-1.html">1.4.2　Retained samples</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-1-0.html">1.4.2.1　Retained samples</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-2.html">1.4.3　Microbe test </a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-2-0.html">1.4.3.1　Microbe test </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-3.html">1.4.4　Physical/chemical test</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-3-0.html">1.4.4.1　Physical/chemical test </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-4.html">1.4.5　Sensory test</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-4-0.html">1.4.5.1　Sensory test</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-5.html">1.4.6　Inspection result trend management </a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-5-0.html">1.4.6.1　Inspection result trend management </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-6.html">1.4.7　Decision for shipping</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-6-0.html">1.4.7.1　Decision for shipping </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-7.html">1.4.8　Measures for abnormalities</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-7-0.html">1.4.8.1　Measures for abnormalities </a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-4.html">1.5　Cleaning (CIP/COP)</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-4-0.html">1.5.1　Cleaning (CIP/COP)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-4-0-0.html">1.5.1.1　Cleaning (CIP/COP)</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-5.html">1.6　SKU change work</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-5-0.html">1.6.1　SKU change work</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-5-0-0.html">1.6.1.1　SKU change work</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6.html">1.7　Change management/Test production</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-0.html">1.7.1　Change management</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-0-0.html">1.7.1.1　Change management</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-1.html">1.7.2　Test production</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-1-0.html">1.7.2.1　Test production</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7.html">1.8　Line/equipment validation and initial-phase production</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-0.html">1.8.1　Line/equipment validation</a></li><li class="nav-item lv4 open nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-0-0.html">1.8.1.1　Line/equipment validation</a></li><li class="nav-item lv4 open selected nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-0-1.html">1.8.1.2　Validation of aseptic system</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-1.html">1.8.2　Initial-phase production</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-1-0.html">1.8.2.1　Initial-phase production</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8.html">1.9　Test methods</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-0.html">1.9.1　Microbe test</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-0-0.html">1.9.1.1　Microbe test method</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1.html">1.9.2　How to evaluate packaging sealing performance</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-0.html">1.9.2.1　PET</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-1.html">1.9.2.2　Can</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-2.html">1.9.2.3　Paper pack</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-3.html">1.9.2.4　Plastic cups</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-4.html">1.9.2.5　Pouch</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-2.html">1.9.3　Physical/chemical test method</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-2-0.html">1.9.3.1　Physical/chemical test method</a></li><li class="nav-item lv1 close opendir(path) nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-3.html">2.　Glossary</a></li>
+    </div>
+
+    <section>
+      <div class="title">
+        <div class="button">
+          <div class="home d-none d-lg-inline">
+            <a href="./index.html">ホーム</a>
+          </div>
+          <div class="print d-none d-lg-inline">
+            <a href="javascript:void(0)" onclick="window.print();return false;">印刷</a>
+          </div>
+        </div>
+        <div class="pagination">
+          <a href="Manual-2-7-0-0.html" class="active" id="btn_prev"><span class="prev"></span></a><a href="Manual-2-7-1.html" class="active" id="btn_next"><span class="next"></span></a>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="sectionDiv4_title" name="SearchTarget" id="NODEID-528660a7745e0b7c1"><span id="528660a7745e0b7c1">1.8.1.2　Validation of aseptic system</span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-365660a7745e0b8f3"><span id="365660a7745e0b8f3">a.　General requirement for validation of the aseptic system</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-605360a7745e0b9b7"><span id="605360a7745e0b9b7"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Microbe contamination / Others (violation of law) / Mixing different liquid / Organoleptic defect / Sealing defect / Packaging appearance defect</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">PET</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Aseptic filling</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-425660a7745e0c268"><span id="425660a7745e0c268"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-670460a7745e0c976"><span id="670460a7745e0c976"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-491660a7745e0d0d7"><span id="491660a7745e0d0d7"><div class="lv5Text">
+<strong>To perform appropriate validation for the aseptic system to achieve the commercial sterility of finished products and prevent defects due to accompanying defects (chemical residues, packaging deformation, etc.)</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-179960a7745e0d7dc"><span id="179960a7745e0d7dc"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-549960a7745e0df82"><span id="549960a7745e0df82"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-435560a7745e0e773"><span id="435560a7745e0e773"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Specify the validation items, procedures, and standards in consultation with the equipment manufacturer when a new line is launched or the equipment is updated and when large-scale maintenance, such as an overhaul, or other changes (packaging shape change, manufacturing capability improvement, equipment modification, etc.) that may affect sterility is conducted. See the figure for an evaluation item and standard value example. For the concept of the standard value settings, see the background.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・If verification is performed using samples with bacteria inoculated do not use the bacteria type that may cause health hazard, such as food poisoning bacteria.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆For the general validation requirements, see the description about validation in 1.8.1.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・For the requirements about microbial quality assurance, such as sterilization, cleaning, and initial contamination, the description in this chapter must take priority over others.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Perform initial-phase production control that reduces the number of products to be produced and increases the number of inspections and the inspection frequency more than normal in production after validation as necessary. (For details, see the description about the setting of the initial-phase production control period in 1.8.2.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-884860a7745e0fe8a"><span id="884860a7745e0fe8a"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-693060a7745e10716"><span id="693060a7745e10716"><div class="lv5Text">
+<strong><u>How to maintain/control</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-449260a7745e10e86"><span id="449260a7745e10e86"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 1<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Perform validation and record the results.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">When an event that requires validation occurs</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">All items must meet the standards.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-108360a7745e11af5"><span id="108360a7745e11af5"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-564460a7745e122b9"><span id="564460a7745e122b9"><div class="lv5Text">
+<u><strong>Figure</strong></u>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-650960a7745e129d8"><span id="650960a7745e129d8"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.8.1.2_1_2_c.PNG"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-237260a7745e12c7c"><span id="237260a7745e12c7c"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.8.1.2_1_3_c.PNG"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-622660a7745e12f1a"><span id="622660a7745e12f1a"><div class="lv5Text">
+<u><strong>Background</strong></u>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-199160a7745e136b3"><span id="199160a7745e136b3"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.8.1.2.a.jpg"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-874160a7745e13953"><span id="874160a7745e13953"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-616560a7745e13c37"><span id="616560a7745e13c37">b.　Initial contamination evaluation</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-510360a7745e13cff"><span id="510360a7745e13cff"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Microbe contamination</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">PET</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Aseptic filling</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-763460a7745e144b4"><span id="763460a7745e144b4"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-580960a7745e14cc1"><span id="580960a7745e14cc1"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-536760a7745e15412"><span id="536760a7745e15412"><div class="lv5Text">
+<strong>To make sure that there are no problems with the initial contamination of packaging, water, or gases (air, N2, CO2, etc.) and the number of airborne bacteria around the aseptic filling equipment</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-661360a7745e15bc8"><span id="661360a7745e15bc8"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-783660a7745e1635f"><span id="783660a7745e1635f"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-241760a7745e16b86"><span id="241760a7745e16b86"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Set the standard number of bacteria of packaging, water, or gases (air, N2, CO2, etc.) and airborne bacteria around the aseptic filling equipment in consideration of the sterilization capabilities of the equipment. Since standard values are sometimes provided by the equipment manufacturer when a new line is launched or the equipment is updated, check the values and reconsider them as necessary.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Perform the microbe test for each sample and take appropriate measures if the test result does not meet with the standard value.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Perform the test as soon as possible to understand the conditions because some measures cannot be taken immediately, such as improvement of cleanliness management in the packaging manufacturer or clean room class around the aseptic equipment.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-659260a7745e17c2e"><span id="659260a7745e17c2e"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-365460a7745e183bf"><span id="365460a7745e183bf"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-808860a7745e186b1"><span id="808860a7745e186b1">c.　Evaluation of steam sterilization (SIP) of pipes and tanks</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-313660a7745e1877b"><span id="313660a7745e1877b"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Microbe contamination</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">PET</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Aseptic filling</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-506660a7745e18f24"><span id="506660a7745e18f24"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-584960a7745e198c3"><span id="584960a7745e198c3"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-380060a7745e1a27d"><span id="380060a7745e1a27d"><div class="lv5Text">
+<strong>To verify that the required sterilization level is secured in the steam sterilization (SIP) of pipes and tanks.</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-838960a7745e1a9c8"><span id="838960a7745e1a9c8"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-795060a7745e1b11e"><span id="795060a7745e1b11e"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-946860a7745e1b885"><span id="946860a7745e1b885"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Determine the target of sterilization temperature and the retention time after the sterilization temperature is reached at the target according to the category (acidic products, neutral products, etc.) of manufacturing SKU in consultation with the equipment manufacturer.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Perform the steam sterilization process used in actual production and verify that the target temperature is reached and maintained for the required time (Check the time during which the temperature is maintained above the target, not the time during which steam is supplied). At that time, make sure that there are no defects due to an unexpected temperature rise in other areas using a temperature measuring tape or contact thermometer, as well as an inline thermometer.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Determine areas to be measured with a temperature measuring tape or contact thermometer in consultation with the manufacturer, mostly such areas as where the temperature is assumed not to rise in the steam sterilization process (near the end of the pipe that discharges steam, etc.).</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Since changes in the temperature cannot be tracked later in the case of a temperature measuring tape, particularly, always check changes during verification to find out that the target temperature is reached when sterility starts to be maintained. (See the figure.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-692060a7745e1ccc2"><span id="692060a7745e1ccc2"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-460860a7745e1d478"><span id="460860a7745e1d478"><div class="lv5Text">
+<strong><u>Figure</u></strong>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-628160a7745e1dbd7"><span id="628160a7745e1dbd7"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.8.1.2_3_1_c.PNG"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-849860a7745e1de7c"><span id="849860a7745e1de7c"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-197160a7745e1e162"><span id="197160a7745e1e162">d.　Verification of the sterility retention capabilities of contents pipes and tanks</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-223360a7745e1e22a"><span id="223360a7745e1e22a"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Microbe contamination</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">PET</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Aseptic filling</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-965360a7745e1e9a8"><span id="965360a7745e1e9a8"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-736160a7745e1f0f2"><span id="736160a7745e1f0f2"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-257460a7745e1f9a4"><span id="257460a7745e1f9a4"><div class="lv5Text">
+<strong>To verify the sterility retention capabilities of contents pipes and tanks, which may be significantly affected when any abnormality occurs</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-579760a7745e20175"><span id="579760a7745e20175"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-153260a7745e208e3"><span id="153260a7745e208e3"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-399560a7745e210e1"><span id="399560a7745e210e1"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Retain the sterilized (SIP) contents pipes and tanks with sterilized products or media and verify if microbes are drawn into the equipment using the following methods. Determine the retention period of sterilized products or media and check procedure in consultation with the equipment manufacturer.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Discharge the products or media after the retention period and check them for any microbe flocs or pH drop due to spoilage. It is necessary to not only draw microbes but also store them for a while until they deteriorate (Example: retention period: 7 days). The area must be kept at a temperature appropriate for incubation. (Example: 25 to 30 ℃)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Fill the products or media after the retention period using the filler and visually check them for any spoilage after incubation in a constant temperature storage. At that time, perform packaging sterilization and COP/SOP on the aseptic chamber and perform filling in the same sterile environment as normal manufacturing. If microbes have been drawn, abnormalities can be found in the subsequent constant temperature storage incubation (Example: Incubation period: 1 to 3 days). If products/media are incubated in a constant temperature storage during the same period as the product/medium filling test, which is comprehensive verification, it can be regarded as equivalent to one product/medium filling test.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Like normal production, evaluate if any cleaning defects occur in CIP after medium filling (sensory evaluation of CIP final rinse water, etc.). Also, perform CIP under higher conditions than normal as necessary.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-297060a7745e21de1"><span id="297060a7745e21de1"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-771460a7745e2256a"><span id="771460a7745e2256a"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-563360a7745e22860"><span id="563360a7745e22860">e.　COP and SOP evaluation of the aseptic chamber</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-395860a7745e22929"><span id="395860a7745e22929"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Microbe contamination / Foreign material contamination / Allergen contamination / Organoleptic defect</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">PET</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Aseptic filling</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-318060a7745e2302e"><span id="318060a7745e2302e"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-924960a7745e23787"><span id="924960a7745e23787"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-792060a7745e23f16"><span id="792060a7745e23f16"><div class="lv5Text">
+<strong>To verify that the inner surface of the aseptic chamber is appropriately cleaned by COP and sterilized by SOP.</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-392060a7745e24712"><span id="392060a7745e24712"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-123160a7745e24f3b"><span id="123160a7745e24f3b"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-642260a7745e256aa"><span id="642260a7745e256aa"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Perform a color test to verify that the inner surface of the chamber is appropriately cleaned in the COP process. If some pigments are left unwashed, take appropriate measurements, such as adjusting the cleaning nozzle direction or adding nozzles, and run a color test again to check cleanability. (See the figure.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Attach a strip with bacteria inoculated inside the aseptic chamber and verify the SOP sterilization effects. At that time, determine the bacteria type to be used and the target of sterilization capability in consideration of the manufacturing product category and SOP method in consultation with the equipment manufacturer. (Example: The target will be 6D sterilization for bacillus atrophaeus if neutral products are manufactured in the line where SOP is performed using H2O2 gas.) (See the figure.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Perform validation under conditions where the sterilization capability is the lowest within the control range as necessary, in consideration of effects on sterilization when the parameters fluctuate within the control range.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Determine strip attachment locations to widely cover inside the aseptic chamber, including hard to sterilize areas recognized by the equipment manufacturer or each company. Do not attach strips to locations that may cause an equipment failure.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・If strips, or wires, cable ties or tapes for fixing strips remain in the aseptic chamber when collecting the strips after SOP, they may be contaminated in products in the later manufacturing. So, collect all of them while checking each against the corresponding attachment location and make sure that the number of attached strips matches the number of collected strips.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Select strip attaching tapes that hardly leave any marks after being peeled off and be sure to remove them by manual cleaning after peeling.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・If the validation results show that the target of sterilization capability was not achieved, investigate the cause, take appropriate measures, and perform validation again. (Example: Changing the parameters, such as chemical concentration, temperature, flow rate, and contact time, changing the air inlet/outlet volume inside the chamber for gas sterilization, adjusting the spray nozzle direction, and adding nozzles)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆In the case of SOP using H2O2 gas, if the wall inside aseptic chamber is wet when H2O2 gas is sprayed, the sterilization capability will significantly drop. So, it is desirable to visually check if it is dry inside the aseptic chamber along with validation using strips.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆In the case of SOP using a liquid such as peracetic acid, it is desirable to check a chemical contact with the entire inner surface of the aseptic chamber using a color test, find hard to contact areas, take possible measures, and perform sterilization evaluation.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆In the case of verification using strips, perform COP and SOP more than normal (extending the time of chemical liquid circulation/spraying, performing cleaning and sterilization several times, etc.) after validation because bacteria resistant to sterilization were brought in intentionally.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-822760a7745e27bf3"><span id="822760a7745e27bf3"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-872360a7745e28300"><span id="872360a7745e28300"><div class="lv5Text">
+<u><strong>Figure</strong></u>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-445560a7745e28a68"><span id="445560a7745e28a68"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.8.1.2_5_1_c.PNG"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-343460a7745e28d0b"><span id="343460a7745e28d0b"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.8.1.2_5_2_c.PNG"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-724360a7745e28faa"><span id="724360a7745e28faa"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-244760a7745e2929c"><span id="244760a7745e2929c">f.　Packaging sterilization evaluation</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-382160a7745e29366"><span id="382160a7745e29366"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Microbe contamination / Organoleptic defect / Sealing defect / Packaging appearance defect / Others (violation of law)</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">PET</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Aseptic filling</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-849560a7745e29adb"><span id="849560a7745e29adb"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-123260a7745e2a38b"><span id="123260a7745e2a38b"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-714260a7745e2ab14"><span id="714260a7745e2ab14"><div class="lv5Text">
+<strong>To verify that the required sterilization capability is secured by packaging sterilization</strong><br /><strong>To verify that the abnormality of quality (chemical residues, packaging deformation, etc.) do not occur due to sterilization</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-782960a7745e2b467"><span id="782960a7745e2b467"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-835960a7745e2bba5"><span id="835960a7745e2bba5"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-123060a7745e2c3b0"><span id="123060a7745e2c3b0"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Verify the packaging sterilization capability using packaging where bacteria were inoculated. At that time, determine the bacteria type to be used and the packaging sterilization method in consideration of the manufacturing product category and SOP method in consultation with the equipment manufacturer. (Example: The target of sterilization capability will be 6 log reduction for bacillus atrophaeus if packaging for neutral products is sterilized using H2O2 gas.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Bacterial inoculated locations in packaging must include hard to sterilize areas recognized by the equipment manufacturer or each company. Be sure to inoculate bacteria into multiple locations, not one, to widely evaluate the sterility of the packaging surface. (See the figure.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆In addition to the validation of the sterilization capability, verify if there are any defects (chemical residues, packaging deformation, unacceptable shrinkage, discoloration, strange odors, chemical elution, etc.) due to sterilization according to the specified standards and procedures.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Perform validation under conditions where the sterilization capability is the lowest within the control range and the effects on other quality defects are the highest as necessary, in consideration of effects on sterilization and other quality defects when the parameters fluctuate within the control range.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Perform COP and SOP more than normal (extending the time of chemical liquid circulation/spraying, performing cleaning and sterilization several times, etc.) after validation because bacteria resistant to sterilization were brought in intentionally.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Wipe the packaging transfer process outside the aseptic chamber where SOP is not performed using a sterile chemical.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-920360a7745e2db63"><span id="920360a7745e2db63"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-350060a7745e2e2ec"><span id="350060a7745e2e2ec"><div class="lv5Text">
+<u><strong>Background</strong></u>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-909760a7745e2ead9"><span id="909760a7745e2ead9"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.8.1.2.f_1.jpg"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-124160a7745e2ed7b"><span id="124160a7745e2ed7b"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.8.1.2.f_2.jpg"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-143460a7745e2f018"><span id="143460a7745e2f018"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-205160a7745e2f303"><span id="205160a7745e2f303">g.　Sterile sampling evaluation</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-836960a7745e2f3cd"><span id="836960a7745e2f3cd"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Microbe contamination</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">PET</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Aseptic filling</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-776960a7745e2fb21"><span id="776960a7745e2fb21"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-110560a7745e30289"><span id="110560a7745e30289"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-986360a7745e30b32"><span id="986360a7745e30b32"><div class="lv5Text">
+<strong>To verify that contents, water, and gases are sterilized and equipment, such as the transfer pipes, tanks, and aseptic chamber, are sterilized and kept sterilized using the microbe test</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-874960a7745e31340"><span id="874960a7745e31340"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-475360a7745e31ae3"><span id="475360a7745e31ae3"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-939960a7745e3228a"><span id="939960a7745e3228a"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Perform the microbe test for sterile contents, sterile water, sterile gas, sterile packaging, aseptic chamber atmosphere (collected by an air sampler), and aseptic chamber inner swab to ensure that the equipment is sterile. Determine the target samples and the number of inspections in consideration of the instructions from the equipment manufacturer.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆To ensure that the equipment is sterile, prevent microbe contamination during sampling or inspection, in particular.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆If microbes were found, perform the test again with more samples (Example: Triple the normal test level) to clarify if the microbe contamination was due to operation of sampling or inspection, or the sterility in the process failed to maintain.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-588960a7745e3347a"><span id="588960a7745e3347a"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-490460a7745e33bee"><span id="490460a7745e33bee"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-799660a7745e33ed8"><span id="799660a7745e33ed8">h.　Comprehensive validation (product/medium filling test)</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-595560a7745e33fa2"><span id="595560a7745e33fa2"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Microbe contamination</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">PET</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Aseptic filling</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-846860a7745e34696"><span id="846860a7745e34696"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-145360a7745e34e7c"><span id="145360a7745e34e7c"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-511860a7745e3557a"><span id="511860a7745e3557a"><div class="lv5Text">
+<strong>To verify the comprehensive sterility of the aseptic filling system using the product/medium filling test</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-588560a7745e35e25"><span id="588560a7745e35e25"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-333560a7745e3652c"><span id="333560a7745e3652c"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-337260a7745e36ca3"><span id="337260a7745e36ca3"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Verify the comprehensive sterility of the aseptic filling system using the product/medium filling test (It is desirable to use media rather than products when considering the ability to detect microbe contamination). Determine the number of tests, the number of filled bottles per test, incubation temperature, incubation period, and criteria in consultation with the manufacturer.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Select the medium type in consideration of the production product category. For example, the FDA defines that products with a pH of at least 4.6 are neutral. However, the ability to detect microbes is different between pH 4.6 and 7.0, so select media that have pH closer to the actual contents.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・In general, product/media filling is performed on a level of tens of thousands of filled bottles. However, the criteria to pass the test must be "no bottle with spoilage". If spoilage occurs, investigate the cause and take measures against it. Also, perform additional filling test and confirm "no bottle with spoilage". (The contents of additional filling test must be determined in consultation with the manufacturer.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・For product filling, choose products that are not turbid so that any spoilage can be visually found.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆In addition to the product/medium filling test, perform inspection for the initial contamination of packaging or water/gases, airborne bacteria around the aseptic chamber, and sterile water or gases. If spoilage was found in the filling test, make sure that the bacteria type matches the one found in these microbe tests and use it to investigate the cause.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆If media are mixed using temporary instruments and water used in the test instead of the normal mixing process, they must be sanitary. Also, set higher sterilization parameters than normal manufacturing as necessary in consideration of the number of bacteria or the bacteria type in the medium powder.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Like normal production, evaluate if any cleaning defects occur in CIP after medium filling (sensory evaluation of CIP final rinse water, etc.). Also, perform CIP under higher conditions than normal as necessary.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-122760a7745e38670"><span id="122760a7745e38670"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-989060a7745e38d95"><span id="989060a7745e38d95"></span>
+</div>
+
+      </div>
+
+      <div class="title bottom">
+        <div class="button">
+          <div class="home d-none d-lg-inline">
+            <a href="./index.html">ホーム</a>
+          </div>
+          <div class="print d-none d-lg-inline">
+            <a href="javascript:void(0)" onclick="window.print();return false;">印刷</a>
+          </div>
+        </div>
+        <div class="pagination">
+          <a href="Manual-2-7-0-0.html" class="active" id="btn_prev"><span class="prev"></span></a><a href="Manual-2-7-1.html" class="active" id="btn_next"><span class="next"></span></a>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <footer>
+    COPYRIGHT © SUNTORY BEVERAGE & FOOD LIMITED. ALL RIGHTS RESERVED.
+  </footer>
+
+  <script src="./assets/js/vendor/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/vendor/iscroll.js"></script>
+  <script src="./assets/js/vendor/drawer.min.js"></script>
+  <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.drawer').drawer();
+    });
+  </script>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>

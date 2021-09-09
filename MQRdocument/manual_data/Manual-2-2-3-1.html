@@ -1,0 +1,776 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>【英語】Manufacturing Quality Requirements</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="icon" href="./favicon.ico">
+  <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/css/vendor/drawer.min.css" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="stylesheet">
+<!--
+	function MM_swapImgRestore() { //v3.0
+		var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+	}
+	function MM_preloadImages() { //v3.0
+		var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+		var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+		if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+	}
+	function MM_findObj(n, d) { //v4.01
+		var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+		d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+		if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+		for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+		if(!x && d.getElementById) x=d.getElementById(n); return x;
+	}
+	function MM_swapImage() { //v3.0
+		var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+		if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+	}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+function showPrintDialog() {
+	window.focus();
+	print();
+}
+
+function showPopup() {
+  window.open(
+    'Result.html?keyword='+encodeURIComponent(document.getElementById('search_box').value),
+    'Result',
+    'left=750,top=200,width=480,height=640,menubar=no,toolbar=no,location=no,resizable=yes,scrollbars=yes'
+  );
+}
+-->
+</script>
+</head>
+
+<body class="drawer drawer--left">
+  <nav class="navbar navbar-expand-md drawer-navbar" role="banner">
+    <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+    </button>
+    <div class="home d-inline d-lg-none">
+      <a href="./index.html">ホーム</a>
+    </div>
+    <form class="form-inline ml-auto" action="javascript:showPopup();" name="search" method="post">
+      <input id="search_box" name="keyword" class="form-control" type="search" placeholder="検索..." aria-label="検索...">
+      <button type="submit" class="btn btn-primary btn-sm" onClick="showPopup();">検索</button>
+    </form>
+  </nav>
+
+  <div class="pc-container">
+
+    <div class="drawer-nav" id="navbar" role="navigation">
+      <ul class="navbar-nav">
+        <li class="nav-item title">
+          【英語】Manufacturing Quality Requirements
+        </li>
+        <li class="nav-item lv1 close opendir(path)"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2.html">1.　Quality Requirements for Production</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0.html">1.1　Raw materials</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-0.html">1.1.1　General requirement for raw materials</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-0-0.html">1.1.1.1　General requirement for raw materials </a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-0-1.html">1.1.1.2　Quality assurance of water and carbon dioxide used as raw materials</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-1.html">1.1.2　Risk evaluation</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-1-0.html">1.1.2.1　Risk evaluation</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1.html">1.2　Packaging</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-0.html">1.2.1　General requirement for packaging</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-0-0.html">1.2.1.1　Packaging approval</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-0-1.html">1.2.1.2　General requirement</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-1.html">1.2.2　Evaluation procedures for packaging approval</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-1-0.html">1.2.2.1　Evaluation procedures for approval</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2.html">1.3　Production</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0.html">1.3.1　General requirement for production processes</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0-0.html">1.3.1.1　Sanitation management and pest control for equipment/buildings</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0-1.html">1.3.1.2　Employee sanitation/Brought-in item management</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0-2.html">1.3.1.3　General requirement for process management</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-1.html">1.3.2　Raw material/packaging receiving</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-1-0.html">1.3.2.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-1-1.html">1.3.2.2　Individual raw materials/packaging</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-2.html">1.3.3　Raw material/packaging storage</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-2-0.html">1.3.3.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-2-1.html">1.3.3.2　Individual raw materials/packaging</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-3.html">1.3.4　Water treatment</a></li><li class="nav-item lv4 open nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-3-0.html">1.3.4.1　General requirement</a></li><li class="nav-item lv4 open selected nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-3-1.html">1.3.4.2　Equipment details</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-4.html">1.3.5　Weighing/mixing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-4-0.html">1.3.5.1　Weighing/mixing</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5.html">1.3.6　Contents transfer/Liquid treatment</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-0.html">1.3.6.1　General requirement for contents transfer/liquid treatment equipment</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-1.html">1.3.6.2　Pipes</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-2.html">1.3.6.3　Pumps</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-3.html">1.3.6.4　Measuring instruments (thermometer/manometer)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-4.html">1.3.6.5　Valves</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-5.html">1.3.6.6　Tanks/Agitators</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-6.html">1.3.6.7　Homogenization</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-7.html">1.3.6.8　Liquid sterilization/Heat exchange (including coolers)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-8.html">1.3.6.9　UV sterilizer for contents</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-9.html">1.3.6.10　Line strainers</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-6.html">1.3.7　Preform production</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-6-0.html">1.3.7.1　Injection machine</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-7.html">1.3.8　Blow molding</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-7-0.html">1.3.8.1　Blow molding</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-8.html">1.3.9　Check before using packaging/Packaging transfer/Product transfer</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-8-0.html">1.3.9.1　Check before using packaging</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-8-1.html">1.3.9.2　Packaging/product transfer</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9.html">1.3.10　Empty packaging cleaning/Rinsing/Packaging sterilization</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-0.html">1.3.10.1　Water rinser</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-1.html">1.3.10.2　Air rinser</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-2.html">1.3.10.3　RGB bottle washing machines</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-3.html">1.3.10.4　UV sterilizers for packaging </a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10.html">1.3.11　Filling system</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-0.html">1.3.11.1　General requirement for filler</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-1.html">1.3.11.2　Cold filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-2.html">1.3.11.3　Hot filling/nitro hot filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-3.html">1.3.11.4　Aseptic filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-4.html">1.3.11.5　Aseptic filling (paper pack)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-5.html">1.3.11.6　Glass bottle filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-6.html">1.3.11.7　Can filling</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-11.html">1.3.12　Neck rinsing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-11-0.html">1.3.12.1　Neck rinsing</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12.html">1.3.13　Sealing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-0.html">1.3.13.1　Capping</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-1.html">1.3.13.2　Can seaming</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-2.html">1.3.13.3　Crowning</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-3.html">1.3.13.4　Plastic cups</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-4.html">1.3.13.5　Pouch</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13.html">1.3.14　Post-sealing sterilization (retort/tunnel pasteurizer)/warmer</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13-0.html">1.3.14.1　Tunnel pasteurizer/warmer</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13-1.html">1.3.14.2　Retort</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13-2.html">1.3.14.3　Hot filling tilting conveyor sterilization (See the hot filling chapter)</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-14.html">1.3.15　Labeling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-14-0.html">1.3.15.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-14-1.html">1.3.15.2　Individual</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-15.html">1.3.16　BBD coding</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-15-0.html">1.3.16.1　BBD coding</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16.html">1.3.17　Inspection guarantee</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16-0.html">1.3.17.1　Inspection guarantee design</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16-1.html">1.3.17.2　Inspection machines</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16-2.html">1.3.17.3　Inline visual inspection</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-17.html">1.3.18　Shrink packing / carton packing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-17-0.html">1.3.18.1　Shrink packing / carton packing</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-18.html">1.3.19　Palletizing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-18-0.html">1.3.19.1　Palletizing</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-19.html">1.3.20　Warehouse</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-19-0.html">1.3.20.1　Storage environment/Inventory management</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-19-1.html">1.3.20.2　Inspection/Rework</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3.html">1.4　QC (product test, microbe test, decision for lot shipping, laboratory equipment)</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-0.html">1.4.1　Sampling inspection/Monitoring design</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-0-0.html">1.4.1.1　Sampling inspection/Monitoring design</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-0-1.html">1.4.1.2　Design of inspection items before shipment</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-1.html">1.4.2　Retained samples</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-1-0.html">1.4.2.1　Retained samples</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-2.html">1.4.3　Microbe test </a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-2-0.html">1.4.3.1　Microbe test </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-3.html">1.4.4　Physical/chemical test</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-3-0.html">1.4.4.1　Physical/chemical test </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-4.html">1.4.5　Sensory test</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-4-0.html">1.4.5.1　Sensory test</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-5.html">1.4.6　Inspection result trend management </a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-5-0.html">1.4.6.1　Inspection result trend management </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-6.html">1.4.7　Decision for shipping</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-6-0.html">1.4.7.1　Decision for shipping </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-7.html">1.4.8　Measures for abnormalities</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-7-0.html">1.4.8.1　Measures for abnormalities </a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-4.html">1.5　Cleaning (CIP/COP)</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-4-0.html">1.5.1　Cleaning (CIP/COP)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-4-0-0.html">1.5.1.1　Cleaning (CIP/COP)</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-5.html">1.6　SKU change work</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-5-0.html">1.6.1　SKU change work</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-5-0-0.html">1.6.1.1　SKU change work</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6.html">1.7　Change management/Test production</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-0.html">1.7.1　Change management</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-0-0.html">1.7.1.1　Change management</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-1.html">1.7.2　Test production</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-1-0.html">1.7.2.1　Test production</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7.html">1.8　Line/equipment validation and initial-phase production</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-0.html">1.8.1　Line/equipment validation</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-0-0.html">1.8.1.1　Line/equipment validation</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-0-1.html">1.8.1.2　Validation of aseptic system</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-1.html">1.8.2　Initial-phase production</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-1-0.html">1.8.2.1　Initial-phase production</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8.html">1.9　Test methods</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-0.html">1.9.1　Microbe test</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-0-0.html">1.9.1.1　Microbe test method</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1.html">1.9.2　How to evaluate packaging sealing performance</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-0.html">1.9.2.1　PET</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-1.html">1.9.2.2　Can</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-2.html">1.9.2.3　Paper pack</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-3.html">1.9.2.4　Plastic cups</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-4.html">1.9.2.5　Pouch</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-2.html">1.9.3　Physical/chemical test method</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-2-0.html">1.9.3.1　Physical/chemical test method</a></li><li class="nav-item lv1 close opendir(path) nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-3.html">2.　Glossary</a></li>
+    </div>
+
+    <section>
+      <div class="title">
+        <div class="button">
+          <div class="home d-none d-lg-inline">
+            <a href="./index.html">ホーム</a>
+          </div>
+          <div class="print d-none d-lg-inline">
+            <a href="javascript:void(0)" onclick="window.print();return false;">印刷</a>
+          </div>
+        </div>
+        <div class="pagination">
+          <a href="Manual-2-2-3-0.html" class="active" id="btn_prev"><span class="prev"></span></a><a href="Manual-2-2-4.html" class="active" id="btn_next"><span class="next"></span></a>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="sectionDiv4_title" name="SearchTarget" id="NODEID-297260a77459b992d"><span id="297260a77459b992d">1.3.4.2　Equipment details</span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-639060a77459b9a40"><span id="639060a77459b9a40">a.　Pretreatment</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-839860a77459b9b02"><span id="839860a77459b9b02"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Microbe contamination / Organoleptic defect / Others (violation of law)</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All packaging</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All lines</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-314760a77459ba37e"><span id="314760a77459ba37e"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-196060a77459babfa"><span id="196060a77459babfa"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-389860a77459bb455"><span id="389860a77459bb455"><div class="lv5Text">
+<strong>To perform water pretreatment appropriately with iron/manganese removal filtration (manganese greensand filters) or two-layer filtration according to the quality of raw water.</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-281560a77459bbcc6"><span id="281560a77459bbcc6"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-896560a77459bc43e"><span id="896560a77459bc43e"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-970160a77459bccdb"><span id="970160a77459bccdb"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Perform backwash periodically to maintain the filtration function and efficiency.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Use a flocculant as necessary to improve filtration efficiency.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-701260a77459bd9bf"><span id="701260a77459bd9bf"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-673960a77459be260"><span id="673960a77459be260"><div class="lv5Text">
+<strong><u>How to maintain/control</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-640660a77459be9b7"><span id="640660a77459be9b7"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 1<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Measure the turbidity after filtration.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally (Example: Once a day)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally (Example: ≦0.10)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-817860a77459bf61e"><span id="817860a77459bf61e"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 2<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Measure iron and manganese after filtration as necessary.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally (Example: Once a week)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally (Example: Iron &lt; 0.1mg/L, Manganes &lt; 0.05mg/L)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-596360a77459bfff8"><span id="596360a77459bfff8"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-777560a77459c0325"><span id="777560a77459c0325">b.　Activated carbon filtration</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-484460a77459c0429"><span id="484460a77459c0429"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Microbe contamination / Organoleptic defect / Others (violation of law)</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All packaging</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All lines</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-616560a77459c0cff"><span id="616560a77459c0cff"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-376660a77459c172a"><span id="376660a77459c172a"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-972060a77459c1e33"><span id="972060a77459c1e33"><div class="lv5Text">
+<strong>To perform water treatment with activated carbon filtration to remove residual chlorine, strange odor components, organic stains, and PFOS/PFOA.</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-596760a77459c2592"><span id="596760a77459c2592"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-583960a77459c2ce8"><span id="583960a77459c2ce8"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-669660a77459c3751"><span id="669660a77459c3751"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Secure enough contact time with the activated carbon layer according to the quality of raw water (Example: 7.5 minutes or longer).</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Since the quality of water remaining in the equipment for a long time may deteriorate, blow the water to completely change it.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆To prevent microbe growth in the activated carbon layer, periodically sterilize the layer with hot water or steam (Do not sterilize with chemicals, such as chlorine).</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・If steam is used, it must be equivalent to or higher than food grade.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Inside the activated carbon treatment device must be designed to be resistant to the heat of hot water.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆After the activated carbon filtration device, install a mesh with openings that can appropriately remove fine charcoal dust that comes off from the activated carbon layer. (Example: 5 to 10 μm)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-705460a77459c51fb"><span id="705460a77459c51fb"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-519260a77459c5976"><span id="519260a77459c5976"><div class="lv5Text">
+<strong><u>How to maintain/control</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-127360a77459c609c"><span id="127360a77459c609c"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 1<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" rowspan="2" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Measure the residual chlorine concentration after treatment and perform the sensory test.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">It is desirable to continuously monitor the flow rate and residual chlorine concentration at the exit and install an alarm or interlock for abnormalities.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">At least once a day</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Residual chlorine concentration standard: Set locally (Example: 0.02 mg/L or below)<br>Sensory test standard: No strange tastes, foreign materials, strange odors, different colors, turbidities, etc.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-858760a77459c6f28"><span id="858760a77459c6f28"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="top" bgcolor="#FFFFFF" colspan="2" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;background-color:#D3EDFB;text-align: left;"> <strong>Task 2<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;background-color:#D3EDFB;text-align: center;"><img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/7.png?20201225144626" title="" style="vertical-align:baseline;max-width:100%;object-fit:contain;" onerror="this.src='../Mng/image/en/NoImage.jpg';"></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" rowspan="2" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Replace the activated carbon layer periodically. After replacement, inspect the water quality before pumping a liquid to the process.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">If the activated carbon layer is replaced in a two-layer structure, install a new one on the secondary side. It is okay to reuse the one on the secondary side for the primary layer.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Once a year or when an activated carbon layer sample (taken at the depth of 30 to 50 cm from the top of the first layer) is analyzed and found to have lower performance by a third-party organization</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">The water quality after activated carbon layer replacement or water treatment must be stable, and the activated carbon layer must provide the water treatment function (No abnormalities found in sensory, pH, water hardness, and residual chlorine concentration).</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-993360a77459c8220"><span id="993360a77459c8220"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="top" bgcolor="#FFFFFF" colspan="2" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;background-color:#D3EDFB;text-align: left;"> <strong>Task 3<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;background-color:#D3EDFB;text-align: center;"><img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/7.png?20201225144626" title="" style="vertical-align:baseline;max-width:100%;object-fit:contain;" onerror="this.src='../Mng/image/en/NoImage.jpg';"></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Perform sterilization (steam or hot water) and backwash.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Sterilization: At least once a month (increase the frequency according to the quality of inflow water) and when the activated carbon is replaced, Backwash: At least once a day or per predetermined frequency that activated carbon filter device work efficiently</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally (Example: Steam sterilization: 85 ℃ or above and 10-minute retention, Backwash: 140 m3/hr and 10-minute retention)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-465860a77459c907a"><span id="465860a77459c907a"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 4</strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">It is desirable to check the flow rate in the activated carbon layer. (The flow rate must satisfy the specified contact time.)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally (Example: Twice a day)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-537860a77459c9c5b"><span id="537860a77459c9c5b"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 5</strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Check the differential pressure of the filter after the equipment.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally (Example: Once a day)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-312060a77459ca76f"><span id="312060a77459ca76f"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 6</strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" rowspan="2" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Replace a disposable filter if it is used after the equipment.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">For a metal filter, check the status.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally according to the filter specifications. (Example: Differential pressure of 5 psi or above or once every three months)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">The filter performance must be maintained.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-474860a77459cb4ee"><span id="474860a77459cb4ee"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-181960a77459cb7f8"><span id="181960a77459cb7f8">c.　RO filtration</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-811960a77459cb8bc"><span id="811960a77459cb8bc"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Microbe contamination / Organoleptic defect / Others (violation of law)</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All packaging</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All lines</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-776760a77459cc017"><span id="776760a77459cc017"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-407360a77459cc768"><span id="407360a77459cc768"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-262760a77459cce8f"><span id="262760a77459cce8f"><div class="lv5Text">
+<strong>To perform water treatment appropriately using an RO filtration device as necessary to meet the quality required for contents water</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-573060a77459cd5c2"><span id="573060a77459cd5c2"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-357760a77459cdde8"><span id="357760a77459cdde8"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-770260a77459ce571"><span id="770260a77459ce571"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Specify the operating conditions (flow rate, differential pressure, etc.) to meet the quality (residual chlorine concentration, turbidity, conductivity, etc.) required for pure water.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆To prevent microbe growth in the RO membrane, periodically sterilize the device with hot water.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Inside the RO treatment device must be designed to be resistant to the heat of hot water.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Since the quality of water remaining in the equipment for a long time may deteriorate, blow the water to completely change it.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆As necessary, continuously monitor the flow rate, differential pressure, and conductivity at the exit in the RO membrane and install an alarm or interlock for abnormalities.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-435760a77459cfcf8"><span id="435760a77459cfcf8"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-379660a77459d0408"><span id="379660a77459d0408"><div class="lv5Text">
+<strong><u>How to maintain/control</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-264860a77459d0bb6"><span id="264860a77459d0bb6"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 1<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Perform the sensory and physical/chemical tests (conductivity, pH as necessary) for water after treatment.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">At least once a day</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Sensory test: No strange tastes, strange odors, foreign materials, different colors, or turbidities.<br>Physical/chemical test: Set locally according to the product specification.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-507160a77459d15f6"><span id="507160a77459d15f6"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 2<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Check the flow rate and differential pressure during operation.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">At least once a day</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-929260a77459d1fe6"><span id="929260a77459d1fe6"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="top" bgcolor="#FFFFFF" colspan="2" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;background-color:#D3EDFB;text-align: left;"> <strong>Task 3<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;background-color:#D3EDFB;text-align: center;"><img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/7.png?20201225144626" title="" style="vertical-align:baseline;max-width:100%;object-fit:contain;" onerror="this.src='../Mng/image/en/NoImage.jpg';"></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Specify the control items, such as flow rate and pressure, and perform backwash periodically.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally according to the frequency recommended by the manufacturer, treatment time, and total treatment flow rate.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-689260a77459d2c65"><span id="689260a77459d2c65"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 4</strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Replace the RO membrane.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally according to the frequency recommended by the manufacturer, treatment time, and total treatment flow rate.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">The performance must be maintained.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-437860a77459d36ff"><span id="437860a77459d36ff"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-508160a77459d3a1f"><span id="508160a77459d3a1f">d.　Ion exchange</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-324860a77459d3ae4"><span id="324860a77459d3ae4"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Microbe contamination / Organoleptic defect / Others (violation of law)</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All packaging</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All lines</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-962560a77459d4220"><span id="962560a77459d4220"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-533460a77459d4955"><span id="533460a77459d4955"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-134760a77459d50bb"><span id="134760a77459d50bb"><div class="lv5Text">
+<strong>To perform water treatment appropriately using an ion exchanger or soft water device as necessary to meet the quality required for contents water</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-166060a77459d5960"><span id="166060a77459d5960"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-446960a77459d6079"><span id="446960a77459d6079"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-585160a77459d67bc"><span id="585160a77459d67bc"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Specify the operating conditions (flow rate, pressure) to meet the quality (pH, residual chlorine concentration, conductivity, etc.) required for pure water.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Periodically regenerate the ion-exchange resin and inspect treatment water after regeneration before use. See the background.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Since the quality of water remaining in the equipment for a long time may deteriorate, blow the water to completely change it.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆As necessary, continuously monitor the conductivity and flow rate and install an alarm or interlock for abnormalities.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-210160a77459d7aaa"><span id="210160a77459d7aaa"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-943260a77459d822a"><span id="943260a77459d822a"><div class="lv5Text">
+<strong><u>How to maintain/control</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-386360a77459d895b"><span id="386360a77459d895b"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 1<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Perform the sensory and physical/chemical tests (conductivity, pH as necessary) for water after treatment.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">At least once a day, after resin regeneration, after resin replacement</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Sensory test: No strange tastes, strange odors, foreign materials, different colors, or turbidities.<br>Physical/chemical test: Set locally according to the product specification.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-728860a77459d941f"><span id="728860a77459d941f"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 2<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Check the flow rate and pressure during operation.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">At least once a day</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-125260a77459d9df4"><span id="125260a77459d9df4"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="top" bgcolor="#FFFFFF" colspan="2" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;background-color:#D3EDFB;text-align: left;"> <strong>Task 3<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;background-color:#D3EDFB;text-align: center;"><img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/7.png?20201225144626" title="" style="vertical-align:baseline;max-width:100%;object-fit:contain;" onerror="this.src='../Mng/image/en/NoImage.jpg';"></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" rowspan="2" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Perform backwash and regeneration for the ion-exchange resin. Check the control items (flow rate, time) during backwash and regeneration.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Perform the sensory and physical/chemical tests before pumping a process liquid after regeneration in consideration of the contamination risk of chemicals used in regeneration (See the background). See Task 1.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally according to the frequency recommended by the manufacturer. (Example: Each water flow rate of 2000 m3)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally (Example: Backwash flow rate of 60 m3/h, 20 minutes)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-415960a77459dae2c"><span id="415960a77459dae2c"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 4</strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Replace the ion-exchange resin periodically.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally according to the treatment time and flow rate. (Example: Once every three years)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">The performance must be maintained.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-859960a77459db842"><span id="859960a77459db842"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-291460a77459dbf9d"><span id="291460a77459dbf9d"><div class="lv5Text">
+<u><strong>Background</strong></u>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-559560a77459dc6ea"><span id="559560a77459dc6ea"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.4.2.d.jpg"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-144160a77459dc98a"><span id="144160a77459dc98a"></span>
+</div>
+
+      </div>
+
+      <div class="title bottom">
+        <div class="button">
+          <div class="home d-none d-lg-inline">
+            <a href="./index.html">ホーム</a>
+          </div>
+          <div class="print d-none d-lg-inline">
+            <a href="javascript:void(0)" onclick="window.print();return false;">印刷</a>
+          </div>
+        </div>
+        <div class="pagination">
+          <a href="Manual-2-2-3-0.html" class="active" id="btn_prev"><span class="prev"></span></a><a href="Manual-2-2-4.html" class="active" id="btn_next"><span class="next"></span></a>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <footer>
+    COPYRIGHT © SUNTORY BEVERAGE & FOOD LIMITED. ALL RIGHTS RESERVED.
+  </footer>
+
+  <script src="./assets/js/vendor/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/vendor/iscroll.js"></script>
+  <script src="./assets/js/vendor/drawer.min.js"></script>
+  <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.drawer').drawer();
+    });
+  </script>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,531 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>【英語】Manufacturing Quality Requirements</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="icon" href="./favicon.ico">
+  <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/css/vendor/drawer.min.css" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="stylesheet">
+<!--
+	function MM_swapImgRestore() { //v3.0
+		var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+	}
+	function MM_preloadImages() { //v3.0
+		var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+		var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+		if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+	}
+	function MM_findObj(n, d) { //v4.01
+		var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+		d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+		if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+		for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+		if(!x && d.getElementById) x=d.getElementById(n); return x;
+	}
+	function MM_swapImage() { //v3.0
+		var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+		if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+	}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+function showPrintDialog() {
+	window.focus();
+	print();
+}
+
+function showPopup() {
+  window.open(
+    'Result.html?keyword='+encodeURIComponent(document.getElementById('search_box').value),
+    'Result',
+    'left=750,top=200,width=480,height=640,menubar=no,toolbar=no,location=no,resizable=yes,scrollbars=yes'
+  );
+}
+-->
+</script>
+</head>
+
+<body class="drawer drawer--left">
+  <nav class="navbar navbar-expand-md drawer-navbar" role="banner">
+    <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+    </button>
+    <div class="home d-inline d-lg-none">
+      <a href="./index.html">ホーム</a>
+    </div>
+    <form class="form-inline ml-auto" action="javascript:showPopup();" name="search" method="post">
+      <input id="search_box" name="keyword" class="form-control" type="search" placeholder="検索..." aria-label="検索...">
+      <button type="submit" class="btn btn-primary btn-sm" onClick="showPopup();">検索</button>
+    </form>
+  </nav>
+
+  <div class="pc-container">
+
+    <div class="drawer-nav" id="navbar" role="navigation">
+      <ul class="navbar-nav">
+        <li class="nav-item title">
+          【英語】Manufacturing Quality Requirements
+        </li>
+        <li class="nav-item lv1 close opendir(path)"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2.html">1.　Quality Requirements for Production</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0.html">1.1　Raw materials</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-0.html">1.1.1　General requirement for raw materials</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-0-0.html">1.1.1.1　General requirement for raw materials </a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-0-1.html">1.1.1.2　Quality assurance of water and carbon dioxide used as raw materials</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-1.html">1.1.2　Risk evaluation</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-1-0.html">1.1.2.1　Risk evaluation</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1.html">1.2　Packaging</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-0.html">1.2.1　General requirement for packaging</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-0-0.html">1.2.1.1　Packaging approval</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-0-1.html">1.2.1.2　General requirement</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-1.html">1.2.2　Evaluation procedures for packaging approval</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-1-0.html">1.2.2.1　Evaluation procedures for approval</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2.html">1.3　Production</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0.html">1.3.1　General requirement for production processes</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0-0.html">1.3.1.1　Sanitation management and pest control for equipment/buildings</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0-1.html">1.3.1.2　Employee sanitation/Brought-in item management</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0-2.html">1.3.1.3　General requirement for process management</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-1.html">1.3.2　Raw material/packaging receiving</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-1-0.html">1.3.2.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-1-1.html">1.3.2.2　Individual raw materials/packaging</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-2.html">1.3.3　Raw material/packaging storage</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-2-0.html">1.3.3.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-2-1.html">1.3.3.2　Individual raw materials/packaging</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-3.html">1.3.4　Water treatment</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-3-0.html">1.3.4.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-3-1.html">1.3.4.2　Equipment details</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-4.html">1.3.5　Weighing/mixing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-4-0.html">1.3.5.1　Weighing/mixing</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5.html">1.3.6　Contents transfer/Liquid treatment</a></li><li class="nav-item lv4 open nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-0.html">1.3.6.1　General requirement for contents transfer/liquid treatment equipment</a></li><li class="nav-item lv4 open nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-1.html">1.3.6.2　Pipes</a></li><li class="nav-item lv4 open nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-2.html">1.3.6.3　Pumps</a></li><li class="nav-item lv4 open nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-3.html">1.3.6.4　Measuring instruments (thermometer/manometer)</a></li><li class="nav-item lv4 open nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-4.html">1.3.6.5　Valves</a></li><li class="nav-item lv4 open nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-5.html">1.3.6.6　Tanks/Agitators</a></li><li class="nav-item lv4 open nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-6.html">1.3.6.7　Homogenization</a></li><li class="nav-item lv4 open selected nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-7.html">1.3.6.8　Liquid sterilization/Heat exchange (including coolers)</a></li><li class="nav-item lv4 open nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-8.html">1.3.6.9　UV sterilizer for contents</a></li><li class="nav-item lv4 open nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-9.html">1.3.6.10　Line strainers</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-6.html">1.3.7　Preform production</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-6-0.html">1.3.7.1　Injection machine</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-7.html">1.3.8　Blow molding</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-7-0.html">1.3.8.1　Blow molding</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-8.html">1.3.9　Check before using packaging/Packaging transfer/Product transfer</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-8-0.html">1.3.9.1　Check before using packaging</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-8-1.html">1.3.9.2　Packaging/product transfer</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9.html">1.3.10　Empty packaging cleaning/Rinsing/Packaging sterilization</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-0.html">1.3.10.1　Water rinser</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-1.html">1.3.10.2　Air rinser</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-2.html">1.3.10.3　RGB bottle washing machines</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-3.html">1.3.10.4　UV sterilizers for packaging </a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10.html">1.3.11　Filling system</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-0.html">1.3.11.1　General requirement for filler</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-1.html">1.3.11.2　Cold filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-2.html">1.3.11.3　Hot filling/nitro hot filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-3.html">1.3.11.4　Aseptic filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-4.html">1.3.11.5　Aseptic filling (paper pack)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-5.html">1.3.11.6　Glass bottle filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-6.html">1.3.11.7　Can filling</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-11.html">1.3.12　Neck rinsing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-11-0.html">1.3.12.1　Neck rinsing</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12.html">1.3.13　Sealing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-0.html">1.3.13.1　Capping</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-1.html">1.3.13.2　Can seaming</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-2.html">1.3.13.3　Crowning</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-3.html">1.3.13.4　Plastic cups</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-4.html">1.3.13.5　Pouch</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13.html">1.3.14　Post-sealing sterilization (retort/tunnel pasteurizer)/warmer</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13-0.html">1.3.14.1　Tunnel pasteurizer/warmer</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13-1.html">1.3.14.2　Retort</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13-2.html">1.3.14.3　Hot filling tilting conveyor sterilization (See the hot filling chapter)</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-14.html">1.3.15　Labeling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-14-0.html">1.3.15.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-14-1.html">1.3.15.2　Individual</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-15.html">1.3.16　BBD coding</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-15-0.html">1.3.16.1　BBD coding</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16.html">1.3.17　Inspection guarantee</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16-0.html">1.3.17.1　Inspection guarantee design</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16-1.html">1.3.17.2　Inspection machines</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16-2.html">1.3.17.3　Inline visual inspection</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-17.html">1.3.18　Shrink packing / carton packing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-17-0.html">1.3.18.1　Shrink packing / carton packing</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-18.html">1.3.19　Palletizing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-18-0.html">1.3.19.1　Palletizing</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-19.html">1.3.20　Warehouse</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-19-0.html">1.3.20.1　Storage environment/Inventory management</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-19-1.html">1.3.20.2　Inspection/Rework</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3.html">1.4　QC (product test, microbe test, decision for lot shipping, laboratory equipment)</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-0.html">1.4.1　Sampling inspection/Monitoring design</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-0-0.html">1.4.1.1　Sampling inspection/Monitoring design</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-0-1.html">1.4.1.2　Design of inspection items before shipment</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-1.html">1.4.2　Retained samples</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-1-0.html">1.4.2.1　Retained samples</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-2.html">1.4.3　Microbe test </a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-2-0.html">1.4.3.1　Microbe test </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-3.html">1.4.4　Physical/chemical test</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-3-0.html">1.4.4.1　Physical/chemical test </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-4.html">1.4.5　Sensory test</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-4-0.html">1.4.5.1　Sensory test</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-5.html">1.4.6　Inspection result trend management </a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-5-0.html">1.4.6.1　Inspection result trend management </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-6.html">1.4.7　Decision for shipping</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-6-0.html">1.4.7.1　Decision for shipping </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-7.html">1.4.8　Measures for abnormalities</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-7-0.html">1.4.8.1　Measures for abnormalities </a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-4.html">1.5　Cleaning (CIP/COP)</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-4-0.html">1.5.1　Cleaning (CIP/COP)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-4-0-0.html">1.5.1.1　Cleaning (CIP/COP)</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-5.html">1.6　SKU change work</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-5-0.html">1.6.1　SKU change work</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-5-0-0.html">1.6.1.1　SKU change work</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6.html">1.7　Change management/Test production</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-0.html">1.7.1　Change management</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-0-0.html">1.7.1.1　Change management</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-1.html">1.7.2　Test production</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-1-0.html">1.7.2.1　Test production</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7.html">1.8　Line/equipment validation and initial-phase production</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-0.html">1.8.1　Line/equipment validation</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-0-0.html">1.8.1.1　Line/equipment validation</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-0-1.html">1.8.1.2　Validation of aseptic system</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-1.html">1.8.2　Initial-phase production</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-1-0.html">1.8.2.1　Initial-phase production</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8.html">1.9　Test methods</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-0.html">1.9.1　Microbe test</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-0-0.html">1.9.1.1　Microbe test method</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1.html">1.9.2　How to evaluate packaging sealing performance</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-0.html">1.9.2.1　PET</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-1.html">1.9.2.2　Can</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-2.html">1.9.2.3　Paper pack</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-3.html">1.9.2.4　Plastic cups</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-4.html">1.9.2.5　Pouch</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-2.html">1.9.3　Physical/chemical test method</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-2-0.html">1.9.3.1　Physical/chemical test method</a></li><li class="nav-item lv1 close opendir(path) nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-3.html">2.　Glossary</a></li>
+    </div>
+
+    <section>
+      <div class="title">
+        <div class="button">
+          <div class="home d-none d-lg-inline">
+            <a href="./index.html">ホーム</a>
+          </div>
+          <div class="print d-none d-lg-inline">
+            <a href="javascript:void(0)" onclick="window.print();return false;">印刷</a>
+          </div>
+        </div>
+        <div class="pagination">
+          <a href="Manual-2-2-5-6.html" class="active" id="btn_prev"><span class="prev"></span></a><a href="Manual-2-2-5-8.html" class="active" id="btn_next"><span class="next"></span></a>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="sectionDiv4_title" name="SearchTarget" id="NODEID-747160a7745a8d087"><span id="747160a7745a8d087">1.3.6.8　Liquid sterilization/Heat exchange (including coolers)</span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-383460a7745a8d1ca"><span id="383460a7745a8d1ca">a.　Sterilization process management</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-475460a7745a8d28c"><span id="475460a7745a8d28c"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Microbe contamination / Organoleptic defect</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All packaging</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All lines</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-543560a7745a8da0f"><span id="543560a7745a8da0f"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-188160a7745a8e1a6"><span id="188160a7745a8e1a6"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-830760a7745a8e8a9"><span id="830760a7745a8e8a9"><div class="lv5Text">
+<strong>To meet the sterilization conditions defined in the product specification to prevent deterioration due to insufficient or excessive sterilization</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-428060a7745a8f091"><span id="428060a7745a8f091"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-465660a7745a8f7ee"><span id="465660a7745a8f7ee"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-407660a7745a900fe"><span id="407660a7745a900fe"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Set the operating range of the sterilization temperature and flow rate based on the product specification. At that time, specify a value that does not cause deterioration due to excessive sterilization in "upper limit of temperature and lower limit of flow rate" and a value that does not cause insufficient sterilization in "lower limit of temperature and upper limit of flow rate".</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆The temperature must be monitored after the holding tube or right after the sterilizer. For the latter, however, specify the operating range in consideration of a temperature drop in the holding tube. (See the figure.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;"><img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/7.png?20201225144626" title="" style="vertical-align:baseline;max-width:100%;object-fit:contain;" onerror="this.src='../Mng/image/en/NoImage.jpg';"></td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Monitor the temperature and flow rate continuously and record them in a chart. (See the figure.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;"><img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/7.png?20201225144626" title="" style="vertical-align:baseline;max-width:100%;object-fit:contain;" onerror="this.src='../Mng/image/en/NoImage.jpg';"></td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆If the temperature or flow rate is outside the operating range, liquid pumping to the later process, such as the filler, must be automatically stopped. Then, take appropriate measures, such as disposing of the contents or going back to the sterilization process and re-sterilizing the contents. (See the figure.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・For the aseptic line, re-sterilize the equipment where the contents exceeding the lower limit of the sterilization condition flew.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Even when a liquid cannot be pumped to the later process because the filler has been stopped for a long time, circulate the contents or warm water without stopping the sterilizer.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Do not circulate the contents or water with the sterilizer stopped. Doing so may spread an unsterilized liquid, resulting in the growth of microbes in the pipeline. See the background.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Do not keep operating the sterilizer without circulating the liquid. Doing so may scorch the contents in the sterilizer, resulting in foreign materials or flavor defects.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Set whether re-sterilization is possible or not and the number of times of re-sterilization for each SKU.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Choose a holding tube appropriate for each SKU to secure the required sterilization time.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-229260a7745a9270b"><span id="229260a7745a9270b"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-962860a7745a92efb"><span id="962860a7745a92efb"><div class="lv5Text">
+<strong><u>How to maintain/control</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-525260a7745a93624"><span id="525260a7745a93624"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 1<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Calibrate the thermometer, flowmeter, and manometer.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">At least once a year and at the frequency set by the laws and regulations</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-111160a7745a9404f"><span id="111160a7745a9404f"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 2<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Check the pipeline switch valve operation when the temperature or flow rate is outside the operating range.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">The valve must be operating correctly.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-432760a7745a94a73"><span id="432760a7745a94a73"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 3<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Check the temperature and flow rate visually (It is desirable to check on the onsite indicators even when values are recorded digitally).</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally (Example: Before start and every few hours)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">The temperature and flow rate must be within the standard value range.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-762360a7745a9541d"><span id="762360a7745a9541d"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-159760a7745a95b74"><span id="159760a7745a95b74"><div class="lv5Text">
+<u><strong>Figure</strong></u>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-526860a7745a9629a"><span id="526860a7745a9629a"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.6.10_1_1_c.png"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-183260a7745a9653b"><span id="183260a7745a9653b"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.6.10_1_2_c.png"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-947560a7745a967d6"><span id="947560a7745a967d6"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.6.10_1_3_c.png"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-549760a7745a96a70"><span id="549760a7745a96a70"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.6.10_1_4_c.png"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-679160a7745a96d07"><span id="679160a7745a96d07"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.6.10_1_6_c.png"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-592060a7745a96fa1"><span id="592060a7745a96fa1"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/en/1.3.6.10_1_7.PNG"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-111560a7745a97239"><span id="111560a7745a97239"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.6.8.a.jpg"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-882060a7745a974d0"><span id="882060a7745a974d0"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-366760a7745a977e3"><span id="366760a7745a977e3">b.　Prevention of mixing different liquid, foreign material contamination, flavor contamination, or leaking</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-122060a7745a978a6"><span id="122060a7745a978a6"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Foreign material contamination / Organoleptic defect / Mixing different liquid / Microbe contamination</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All packaging</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All lines</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-133460a7745a97fc2"><span id="133460a7745a97fc2"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-727260a7745a9874c"><span id="727260a7745a9874c"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-437460a7745a98ea8"><span id="437460a7745a98ea8"><div class="lv5Text">
+<strong>To prevent mixing different liquid, foreign material contamination (gaskets, rusts), flavor contamination, or leaking.</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-961160a7745a996a1"><span id="961160a7745a996a1"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-453960a7745a99d74"><span id="453960a7745a99d74"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-335060a7745a9a513"><span id="335060a7745a9a513"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Take the following measures to prevent the medium from entering the food side or the medium on the non-heating side from entering the heating side even when a pinhole is generated on the heat exchanger (including a cooler) for contents, raw materials, or contents water. (See the figure.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Set higher pressure on a side where the contents or sterile liquid must not be mixed than the other side. The difference in pressure must be 0.01 MPa or above. 0.03 MPa or above is more desirable. For the manometer installation location, see the figure.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・If a pressure difference is set, the differential pressure must be secured even during divert in consideration that pressure tends to fluctuate when the liquid pumping destination is changed. (See the figure.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Alternatively, instead of ensuring the differential pressure, a double-wall plate -type heat exchanger may be used to allow the liquid leaking from the pinhole to be discharged to the outside.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆To reduce a contamination risk, it is desirable to use a food-grade medium.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Choose appropriate heat exchanger material in consideration of the chloride ion concentration and sterilization temperature in the products. Products containing highly concentrated chloride ion, such as sports drink, are highly corrosive, which may generate pinholes or foreign metals on the heat exchanger. (See the figure.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Choose appropriate gaskets from the perspectives of flavor contamination prevention and endurance. (For details, see 1.3.6.1 "Gaskets".)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Install a heat exchanger appropriately to prevent leaking. (See the figure.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-349160a7745a9c29e"><span id="349160a7745a9c29e"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-885760a7745a9c9cd"><span id="885760a7745a9c9cd"><div class="lv5Text">
+<strong><u>How to maintain/control</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-275060a7745a9d0db"><span id="275060a7745a9d0db"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="top" bgcolor="#FFFFFF" colspan="2" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;background-color:#D3EDFB;text-align: left;"> <strong>Task 1<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;background-color:#D3EDFB;text-align: center;"><img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/7.png?20201225144626" title="" style="vertical-align:baseline;max-width:100%;object-fit:contain;" onerror="this.src='../Mng/image/en/NoImage.jpg';"></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Check the differential pressure between liquids that flow through the heat exchanger.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Continuous monitoring is desirable. Otherwise, check at the start of operation and every few hours afterward.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">The differential pressure must be 0.01 MPa or above. (0.03 MPa or above is desirable.)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-423260a7745a9de06"><span id="423260a7745a9de06"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 2<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Perform maintenance, such as pinhole check and gasket replacement. (See the figure.)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-583060a7745a9e7f3"><span id="583060a7745a9e7f3"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-520760a7745a9f000"><span id="520760a7745a9f000"><div class="lv5Text">
+<u><strong>Figure</strong></u>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-813760a7745a9f6ee"><span id="813760a7745a9f6ee"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.6.10_3_1_c.png"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-524260a7745a9f98d"><span id="524260a7745a9f98d"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.6.10_3_2_c.png"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-126860a7745a9fc27"><span id="126860a7745a9fc27"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.6.10_3_3_c.png"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-606360a7745a9fec5"><span id="606360a7745a9fec5"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.6.10_3_4_c.png"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-213760a7745aa015d"><span id="213760a7745aa015d"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.6.10_3_5_c.png"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-892660a7745aa03f5"><span id="892660a7745aa03f5"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.6.10_3_6_c-1.png"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-103460a7745aa0691"><span id="103460a7745aa0691"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.6.10_3_6_c-2.png"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+
+      </div>
+
+      <div class="title bottom">
+        <div class="button">
+          <div class="home d-none d-lg-inline">
+            <a href="./index.html">ホーム</a>
+          </div>
+          <div class="print d-none d-lg-inline">
+            <a href="javascript:void(0)" onclick="window.print();return false;">印刷</a>
+          </div>
+        </div>
+        <div class="pagination">
+          <a href="Manual-2-2-5-6.html" class="active" id="btn_prev"><span class="prev"></span></a><a href="Manual-2-2-5-8.html" class="active" id="btn_next"><span class="next"></span></a>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <footer>
+    COPYRIGHT © SUNTORY BEVERAGE & FOOD LIMITED. ALL RIGHTS RESERVED.
+  </footer>
+
+  <script src="./assets/js/vendor/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/vendor/iscroll.js"></script>
+  <script src="./assets/js/vendor/drawer.min.js"></script>
+  <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.drawer').drawer();
+    });
+  </script>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>

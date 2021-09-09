@@ -1,0 +1,27 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>【英語】Manufacturing Quality Requirements</title>
+	<link href="style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="treeview.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="loadhtml.js"></script>
+	<script type="text/javascript" src="prototype.js"></script>
+	<script type="text/javascript" src="blog_ajax_json_search_en.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript">
+		function query_search() {
+			var query = window.location.search.toQueryParams();
+			blogAjaxJsonSearch( query['keyword'] );
+		}
+	</script>
+	<script type="text/javascript">
+		jQuery.noConflict()(function($){
+			var j$ = jQuery;
+		});
+	</script>
+</head>
+<body onload="javascript:query_search();">
+	<div id="invis" style="display:none;"></div>
+	<div class="rez"></div>
+</body>
+</html>
