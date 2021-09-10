@@ -1,0 +1,744 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>【英語】Manufacturing Quality Requirements</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="icon" href="./favicon.ico">
+  <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/css/vendor/drawer.min.css" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="stylesheet">
+<!--
+	function MM_swapImgRestore() { //v3.0
+		var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+	}
+	function MM_preloadImages() { //v3.0
+		var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+		var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+		if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+	}
+	function MM_findObj(n, d) { //v4.01
+		var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+		d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+		if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+		for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+		if(!x && d.getElementById) x=d.getElementById(n); return x;
+	}
+	function MM_swapImage() { //v3.0
+		var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+		if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+	}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+function showPrintDialog() {
+	window.focus();
+	print();
+}
+
+function showPopup() {
+  window.open(
+    'Result.html?keyword='+encodeURIComponent(document.getElementById('search_box').value),
+    'Result',
+    'left=750,top=200,width=480,height=640,menubar=no,toolbar=no,location=no,resizable=yes,scrollbars=yes'
+  );
+}
+-->
+</script>
+</head>
+
+<body class="drawer drawer--left">
+  <nav class="navbar navbar-expand-md drawer-navbar" role="banner">
+    <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+    </button>
+    <div class="home d-inline d-lg-none">
+      <a href="./index.html">ホーム</a>
+    </div>
+    <form class="form-inline ml-auto" action="javascript:showPopup();" name="search" method="post">
+      <input id="search_box" name="keyword" class="form-control" type="search" placeholder="検索..." aria-label="検索...">
+      <button type="submit" class="btn btn-primary btn-sm" onClick="showPopup();">検索</button>
+    </form>
+  </nav>
+
+  <div class="pc-container">
+
+    <div class="drawer-nav" id="navbar" role="navigation">
+      <ul class="navbar-nav">
+        <li class="nav-item title">
+          【英語】Manufacturing Quality Requirements
+        </li>
+        <li class="nav-item lv1 close opendir(path)"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2.html">1.　Quality Requirements for Production</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0.html">1.1　Raw materials</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-0.html">1.1.1　General requirement for raw materials</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-0-0.html">1.1.1.1　General requirement for raw materials </a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-0-1.html">1.1.1.2　Quality assurance of water and carbon dioxide used as raw materials</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-1.html">1.1.2　Risk evaluation</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-1-0.html">1.1.2.1　Risk evaluation</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1.html">1.2　Packaging</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-0.html">1.2.1　General requirement for packaging</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-0-0.html">1.2.1.1　Packaging approval</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-0-1.html">1.2.1.2　General requirement</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-1.html">1.2.2　Evaluation procedures for packaging approval</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-1-0.html">1.2.2.1　Evaluation procedures for approval</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2.html">1.3　Production</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0.html">1.3.1　General requirement for production processes</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0-0.html">1.3.1.1　Sanitation management and pest control for equipment/buildings</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0-1.html">1.3.1.2　Employee sanitation/Brought-in item management</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0-2.html">1.3.1.3　General requirement for process management</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-1.html">1.3.2　Raw material/packaging receiving</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-1-0.html">1.3.2.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-1-1.html">1.3.2.2　Individual raw materials/packaging</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-2.html">1.3.3　Raw material/packaging storage</a></li><li class="nav-item lv4 open selected nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-2-0.html">1.3.3.1　General requirement</a></li><li class="nav-item lv4 open nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-2-1.html">1.3.3.2　Individual raw materials/packaging</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-3.html">1.3.4　Water treatment</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-3-0.html">1.3.4.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-3-1.html">1.3.4.2　Equipment details</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-4.html">1.3.5　Weighing/mixing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-4-0.html">1.3.5.1　Weighing/mixing</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5.html">1.3.6　Contents transfer/Liquid treatment</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-0.html">1.3.6.1　General requirement for contents transfer/liquid treatment equipment</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-1.html">1.3.6.2　Pipes</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-2.html">1.3.6.3　Pumps</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-3.html">1.3.6.4　Measuring instruments (thermometer/manometer)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-4.html">1.3.6.5　Valves</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-5.html">1.3.6.6　Tanks/Agitators</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-6.html">1.3.6.7　Homogenization</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-7.html">1.3.6.8　Liquid sterilization/Heat exchange (including coolers)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-8.html">1.3.6.9　UV sterilizer for contents</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-9.html">1.3.6.10　Line strainers</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-6.html">1.3.7　Preform production</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-6-0.html">1.3.7.1　Injection machine</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-7.html">1.3.8　Blow molding</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-7-0.html">1.3.8.1　Blow molding</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-8.html">1.3.9　Check before using packaging/Packaging transfer/Product transfer</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-8-0.html">1.3.9.1　Check before using packaging</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-8-1.html">1.3.9.2　Packaging/product transfer</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9.html">1.3.10　Empty packaging cleaning/Rinsing/Packaging sterilization</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-0.html">1.3.10.1　Water rinser</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-1.html">1.3.10.2　Air rinser</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-2.html">1.3.10.3　RGB bottle washing machines</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-3.html">1.3.10.4　UV sterilizers for packaging </a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10.html">1.3.11　Filling system</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-0.html">1.3.11.1　General requirement for filler</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-1.html">1.3.11.2　Cold filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-2.html">1.3.11.3　Hot filling/nitro hot filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-3.html">1.3.11.4　Aseptic filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-4.html">1.3.11.5　Aseptic filling (paper pack)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-5.html">1.3.11.6　Glass bottle filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-6.html">1.3.11.7　Can filling</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-11.html">1.3.12　Neck rinsing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-11-0.html">1.3.12.1　Neck rinsing</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12.html">1.3.13　Sealing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-0.html">1.3.13.1　Capping</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-1.html">1.3.13.2　Can seaming</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-2.html">1.3.13.3　Crowning</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-3.html">1.3.13.4　Plastic cups</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-4.html">1.3.13.5　Pouch</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13.html">1.3.14　Post-sealing sterilization (retort/tunnel pasteurizer)/warmer</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13-0.html">1.3.14.1　Tunnel pasteurizer/warmer</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13-1.html">1.3.14.2　Retort</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13-2.html">1.3.14.3　Hot filling tilting conveyor sterilization (See the hot filling chapter)</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-14.html">1.3.15　Labeling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-14-0.html">1.3.15.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-14-1.html">1.3.15.2　Individual</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-15.html">1.3.16　BBD coding</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-15-0.html">1.3.16.1　BBD coding</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16.html">1.3.17　Inspection guarantee</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16-0.html">1.3.17.1　Inspection guarantee design</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16-1.html">1.3.17.2　Inspection machines</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16-2.html">1.3.17.3　Inline visual inspection</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-17.html">1.3.18　Shrink packing / carton packing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-17-0.html">1.3.18.1　Shrink packing / carton packing</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-18.html">1.3.19　Palletizing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-18-0.html">1.3.19.1　Palletizing</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-19.html">1.3.20　Warehouse</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-19-0.html">1.3.20.1　Storage environment/Inventory management</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-19-1.html">1.3.20.2　Inspection/Rework</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3.html">1.4　QC (product test, microbe test, decision for lot shipping, laboratory equipment)</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-0.html">1.4.1　Sampling inspection/Monitoring design</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-0-0.html">1.4.1.1　Sampling inspection/Monitoring design</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-0-1.html">1.4.1.2　Design of inspection items before shipment</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-1.html">1.4.2　Retained samples</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-1-0.html">1.4.2.1　Retained samples</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-2.html">1.4.3　Microbe test </a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-2-0.html">1.4.3.1　Microbe test </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-3.html">1.4.4　Physical/chemical test</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-3-0.html">1.4.4.1　Physical/chemical test </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-4.html">1.4.5　Sensory test</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-4-0.html">1.4.5.1　Sensory test</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-5.html">1.4.6　Inspection result trend management </a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-5-0.html">1.4.6.1　Inspection result trend management </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-6.html">1.4.7　Decision for shipping</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-6-0.html">1.4.7.1　Decision for shipping </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-7.html">1.4.8　Measures for abnormalities</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-7-0.html">1.4.8.1　Measures for abnormalities </a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-4.html">1.5　Cleaning (CIP/COP)</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-4-0.html">1.5.1　Cleaning (CIP/COP)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-4-0-0.html">1.5.1.1　Cleaning (CIP/COP)</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-5.html">1.6　SKU change work</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-5-0.html">1.6.1　SKU change work</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-5-0-0.html">1.6.1.1　SKU change work</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6.html">1.7　Change management/Test production</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-0.html">1.7.1　Change management</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-0-0.html">1.7.1.1　Change management</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-1.html">1.7.2　Test production</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-1-0.html">1.7.2.1　Test production</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7.html">1.8　Line/equipment validation and initial-phase production</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-0.html">1.8.1　Line/equipment validation</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-0-0.html">1.8.1.1　Line/equipment validation</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-0-1.html">1.8.1.2　Validation of aseptic system</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-1.html">1.8.2　Initial-phase production</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-1-0.html">1.8.2.1　Initial-phase production</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8.html">1.9　Test methods</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-0.html">1.9.1　Microbe test</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-0-0.html">1.9.1.1　Microbe test method</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1.html">1.9.2　How to evaluate packaging sealing performance</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-0.html">1.9.2.1　PET</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-1.html">1.9.2.2　Can</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-2.html">1.9.2.3　Paper pack</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-3.html">1.9.2.4　Plastic cups</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-4.html">1.9.2.5　Pouch</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-2.html">1.9.3　Physical/chemical test method</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-2-0.html">1.9.3.1　Physical/chemical test method</a></li><li class="nav-item lv1 close opendir(path) nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-3.html">2.　Glossary</a></li>
+    </div>
+
+    <section>
+      <div class="title">
+        <div class="button">
+          <div class="home d-none d-lg-inline">
+            <a href="./index.html">ホーム</a>
+          </div>
+          <div class="print d-none d-lg-inline">
+            <a href="javascript:void(0)" onclick="window.print();return false;">印刷</a>
+          </div>
+        </div>
+        <div class="pagination">
+          <a href="Manual-2-2-2.html" class="active" id="btn_prev"><span class="prev"></span></a><a href="Manual-2-2-2-1.html" class="active" id="btn_next"><span class="next"></span></a>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="sectionDiv4_title" name="SearchTarget" id="NODEID-706560a7745963f9e"><span id="706560a7745963f9e">1.3.3.1　General requirement</span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-773060a77459640b6"><span id="773060a77459640b6">a.　General requirement for storage environment</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-763160a7745964178"><span id="763160a7745964178"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Organoleptic defect / Different packaging / Sealing defect / Others (violation of law) / Microbe contamination / Allergen contamination</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All packaging</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All lines</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-597160a774596494b"><span id="597160a774596494b"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-373160a774596528a"><span id="373160a774596528a"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-119460a77459659a3"><span id="119460a77459659a3"><div class="lv5Text">
+<strong>To prevent raw materials/packaging from being damaged or deteriorating during storage</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-425560a77459660ba"><span id="425560a77459660ba"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-869760a7745966819"><span id="869760a7745966819"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-263460a7745966f77"><span id="263460a7745966f77"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆The storage conditions must comply with the local regulations or the manufacturer's specifications.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;"><img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/7.png?20201225144626" title="" style="vertical-align:baseline;max-width:100%;object-fit:contain;" onerror="this.src='../Mng/image/en/NoImage.jpg';"></td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Do not expose raw materials/packaging to direct sunlight, high temperature, humidity, or rain to prevent adverse effects on the quality related to the storage environment.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Use equipment or devices that can be stored in a sanitary manner and easily washed and cleaned.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Different pallets must be used according to the plant zoning rules (such as separating for indoors and outdoors and bringing in to clean areas).</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆The storage location must be periodically cleaned.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-304460a7745968770"><span id="304460a7745968770"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-954560a7745968ed1"><span id="954560a7745968ed1"><div class="lv5Text">
+<strong><u>How to maintain/control</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-955960a7745969632"><span id="955960a7745969632"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 1<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">For storage areas that require air-conditioning, check the temperature and humidity.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally, at least once a day</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Within the predetermined operating limit range</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-219760a774596a173"><span id="219760a774596a173"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 2<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" rowspan="2" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Make sure that there is no leaking or condensation.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Periodically check the storage equipment, devices, and pallets for any damage.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">No defects or damage</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-750560a774596ae79"><span id="750560a774596ae79"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 3<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" rowspan="2" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Make sure that there is no damage or deterioration on the stored raw materials/packaging.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">If they are stored piled up, the number of stacks must be no greater than the predetermined number.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Based on the frequency set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">No damage or deterioration</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-794460a774596c0c2"><span id="794460a774596c0c2"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-891560a774596c95c"><span id="891560a774596c95c"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-118060a774596cc4f"><span id="118060a774596cc4f">b.　Storage environment (cross-contamination prevention)</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-207560a774596cd14"><span id="207560a774596cd14"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Organoleptic defect / Different packaging / Sealing defect / Others (violation of law) / Microbe contamination / Allergen contamination</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All packaging</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All lines</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-262660a774596d58b"><span id="262660a774596d58b"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-114060a774596dd5a"><span id="114060a774596dd5a"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-363560a774596e49e"><span id="363560a774596e49e"><div class="lv5Text">
+<strong>To prevent cross-contamination to stored materials/packaging.</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-214160a774596ec39"><span id="214160a774596ec39"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-653560a774596f414"><span id="653560a774596f414"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-374060a774596fb42"><span id="374060a774596fb42"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆To prevent flavor contamination from the environment, raw materials/packaging must be stored in locations without strange odors.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Use equipment and devices that do not easily cause insects, flavor contamination, and dirt/dust during storage.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・IIn general, it is desirable to use plastic pallets to store raw materials/packaging.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・If wooden pallets are used, choose ones that contain no strong odors (such as the odor of a chemical used for insect- or rat-proofing).</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;"><img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/7.png?20201225144626" title="" style="vertical-align:baseline;max-width:100%;object-fit:contain;" onerror="this.src='../Mng/image/en/NoImage.jpg';"></td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Do not basically use any chemicals that may cause flavor contamination (chlorine-based chemicals, etc.) in the warehouse. If unavoidable circumstances arise, take all necessary preventive measures (Example: Spot ventilation of the surrounding area).</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆For raw materials with weak flavor, pay extra attention to the storage conditions to prevent flavor contamination from those with strong flavor.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Prepare a dedicated storage location for raw materials containing allergen and clearly indicate it. Raw materials must be stored separately depending on the allergen types.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;"><img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/7.png?20201225144626" title="" style="vertical-align:baseline;max-width:100%;object-fit:contain;" onerror="this.src='../Mng/image/en/NoImage.jpg';"></td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Use dedicated containers/pallets to store raw materials containing allergen to prevent cross-contamination.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-685460a7745971b9f"><span id="685460a7745971b9f"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-334460a774597248d"><span id="334460a774597248d"><div class="lv5Text">
+<strong><u>How to maintain/control</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-806460a7745972db0"><span id="806460a7745972db0"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 1<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Periodically wash and clean the equipment and devices and make sure that there are no insects, flavor contamination, or dirt/dust.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">No abnormalities</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-549660a77459737ce"><span id="549660a77459737ce"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-731560a7745973ad2"><span id="731560a7745973ad2">c.　Inventory management</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-345560a7745973b97"><span id="345560a7745973b97"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Organoleptic defect / Microbe contamination / Sealing defect / Others (violation of law) / Foreign material contamination / Packaging appearance defect</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All packaging</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All lines</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-129860a7745974339"><span id="129860a7745974339"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-756060a7745974ab2"><span id="756060a7745974ab2"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-796060a774597522f"><span id="796060a774597522f"><div class="lv5Text">
+<strong>To perform inventory management to prevent incorrect or expired raw materials/packaging from being used.</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-778560a77459759a9"><span id="778560a77459759a9"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-235560a77459760fb"><span id="235560a77459760fb"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-271060a77459768cc"><span id="271060a77459768cc"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆System- or manual-based inventory management must be conducted to prevent incorrect or expired raw materials/packaging from being used. (Example: Barcode-based confirmation, ledger-based management)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Storage raw materials/packaging with different SKUs or expiration dates separately.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;"><img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/7.png?20201225144626" title="" style="vertical-align:baseline;max-width:100%;object-fit:contain;" onerror="this.src='../Mng/image/en/NoImage.jpg';"></td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Inventory management must be conducted so that raw materials/packaging with the oldest expiration date are used first.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Specify the methods to display and check the expiration dates of raw materials/packaging.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-932360a7745977c80"><span id="932360a7745977c80"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-823060a77459783f8"><span id="823060a77459783f8"><div class="lv5Text">
+<strong><u>How to maintain/control</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-520560a7745978b80"><span id="520560a7745978b80"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 1<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Periodically check the inventory management data against the actual inventory to make sure that raw materials/packaging have not expired or not been mistakenly used.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Based on the storage conditions set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-758460a7745979602"><span id="758460a7745979602"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 2<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Dispose of expired raw materials/packaging immediately to prevent misuse.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Every time</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">No expired raw materials/packaging in the warehouse</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-911460a774597a175"><span id="911460a774597a175"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 3<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Check the SKU, expiration date, and printed information as necessary before taking out raw materials/packaging to be used.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">When transferring from the storage location to the usage location</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">No incorrect SKUs or expired raw materials/packaging</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-450460a774597abb0"><span id="450460a774597abb0"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-245860a774597aebb"><span id="245860a774597aebb">d.　Management of on-hold and non-conforming raw materials/packaging</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-790160a774597af81"><span id="790160a774597af81"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Organoleptic defect / Microbe contamination / Sealing defect / Others (violation of law) / Foreign material contamination / Packaging appearance defect</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All packaging</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All lines</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-806760a774597b6eb"><span id="806760a774597b6eb"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-781760a774597be3b"><span id="781760a774597be3b"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-799860a774597c5a5"><span id="799860a774597c5a5"><div class="lv5Text">
+<strong>To prevent on-hold and non-conforming raw materials/packaging from being used.</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-815160a774597cd5e"><span id="815160a774597cd5e"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-370460a774597d49e"><span id="370460a774597d49e"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-730260a774597dbeb"><span id="730260a774597dbeb"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆On-hold and non-conforming raw materials/packaging must be isolated from normal raw materials/packaging to prevent coexistence.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;"><img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/7.png?20201225144626" title="" style="vertical-align:baseline;max-width:100%;object-fit:contain;" onerror="this.src='../Mng/image/en/NoImage.jpg';"></td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Specify a storage location to isolate on-hold and non-conforming raw materials/packaging physically from normal raw materials/packaging.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Clearly indicate the isolated storage location and raw materials/packaging.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Separate the categories for on-hold and non-conforming raw materials/packaging in the warehouse management system (or categories on the management list for the manual management) to prevent misuse.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Specify the approval procedures to change the status from on-hold and non-conforming raw materials/packaging to normal raw materials/packaging and to dispose of them.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-933960a774597f39b"><span id="933960a774597f39b"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-980660a774597fb56"><span id="980660a774597fb56"><div class="lv5Text">
+<strong><u>How to maintain/control</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-688060a77459802f8"><span id="688060a77459802f8"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 1<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Dispose of raw materials/packaging that were determined unusable immediately to prevent misuse.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Immediately</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">No unusable raw materials/packaging in the warehouse</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-209860a7745980d3c"><span id="209860a7745980d3c"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 2<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Periodically check the inventory management data against the actual inventory.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Based on the storage conditions set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-170360a7745981965"><span id="170360a7745981965"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-192560a77459820d5"><span id="192560a77459820d5"><div class="lv5Text">
+<u><strong>Figure</strong></u>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-625460a77459827f1"><span id="625460a77459827f1"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.3.1_4_1_c.png"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-623060a7745982a93"><span id="623060a7745982a93"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-269960a7745982d9b"><span id="269960a7745982d9b">e.　Unpacked or extra raw materials/packaging</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-935260a7745982e61"><span id="935260a7745982e61"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Organoleptic defect / Different packaging / Sealing defect / Others (violation of law) / Microbe contamination / Allergen contamination</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All packaging</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All lines</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-169260a7745983636"><span id="169260a7745983636"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-426860a7745983d9a"><span id="426860a7745983d9a"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-379360a7745984503"><span id="379360a7745984503"><div class="lv5Text">
+<strong>To prevent misuse, foreign material contamination, deterioration, or microbe contamination during the storage of unpacked or extra raw materials/packaging.</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-441860a7745984c2a"><span id="441860a7745984c2a"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-119960a77459853a7"><span id="119960a77459853a7"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-116260a7745985b5d"><span id="116260a7745985b5d"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Unpacked or extra raw materials/packaging must be appropriately sealed and stored.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Unpacked or extra raw materials/packaging must be used for the next production.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Set the expiration date after unpacking. For frozen raw materials particularly, pay attention to the requirements according to the specifications, such as whether defrosted raw materials can be refrozen and the expiration date of defrosted raw materials.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Misuse during storage must be prevented and traced.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Indicate the type, quantity, and lot, and expiration date for unpacked or extra raw materials/packaging.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Set the storage method and location for unpacked or extra raw materials/packaging to isolate from other raw materials/packaging.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-694460a77459872b1"><span id="694460a77459872b1"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-102060a7745987a9c"><span id="102060a7745987a9c"><div class="lv5Text">
+<strong><u>How to maintain/control</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-343560a774598821c"><span id="343560a774598821c"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 1<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Check the expiration date before using refrozen/defrosted raw materials.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Before using</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Within the expiration date</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-545460a7745988c8b"><span id="545460a7745988c8b"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-352960a77459893c0"><span id="352960a77459893c0"><div class="lv5Text">
+<u><strong>Details</strong></u>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-678060a7745989a94"><span id="678060a7745989a94"><div class="lv5Text">
+Regarding containers used to store unpacked extra raw materials<br />1) Raw materials must be stored in clean and sanitary containers that have lids or can be sealed.<br />2) If tea leaves or powder raw materials are stored in craft paper bags, release air from the bags and seal them.<br />3) If fruit juice or vegetable juice is stored in metal containers, use synthetic resin inner bags that cause no flavor contamination approved by the laws and regulations and seal them before putting them in the containers.<br />4) For granular raw materials, such as dairy products, sugars, acid condiments, salts, and other foods, store them in containers that do not absorb moisture.<br />5) For powder raw materials, such as vitamins, amino acids, and enzymes, store them in well-closed containers that can block out light.<br />6) Use containers that comply with local laws and regulations. 
+</div></span>
+</div>
+
+      </div>
+
+      <div class="title bottom">
+        <div class="button">
+          <div class="home d-none d-lg-inline">
+            <a href="./index.html">ホーム</a>
+          </div>
+          <div class="print d-none d-lg-inline">
+            <a href="javascript:void(0)" onclick="window.print();return false;">印刷</a>
+          </div>
+        </div>
+        <div class="pagination">
+          <a href="Manual-2-2-2.html" class="active" id="btn_prev"><span class="prev"></span></a><a href="Manual-2-2-2-1.html" class="active" id="btn_next"><span class="next"></span></a>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <footer>
+    COPYRIGHT © SUNTORY BEVERAGE & FOOD LIMITED. ALL RIGHTS RESERVED.
+  </footer>
+
+  <script src="./assets/js/vendor/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/vendor/iscroll.js"></script>
+  <script src="./assets/js/vendor/drawer.min.js"></script>
+  <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.drawer').drawer();
+    });
+  </script>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>

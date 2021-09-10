@@ -1,0 +1,764 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>【英語】Manufacturing Quality Requirements</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="icon" href="./favicon.ico">
+  <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/css/vendor/drawer.min.css" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="stylesheet">
+<!--
+	function MM_swapImgRestore() { //v3.0
+		var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+	}
+	function MM_preloadImages() { //v3.0
+		var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+		var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+		if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+	}
+	function MM_findObj(n, d) { //v4.01
+		var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+		d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+		if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+		for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+		if(!x && d.getElementById) x=d.getElementById(n); return x;
+	}
+	function MM_swapImage() { //v3.0
+		var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+		if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+	}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+function showPrintDialog() {
+	window.focus();
+	print();
+}
+
+function showPopup() {
+  window.open(
+    'Result.html?keyword='+encodeURIComponent(document.getElementById('search_box').value),
+    'Result',
+    'left=750,top=200,width=480,height=640,menubar=no,toolbar=no,location=no,resizable=yes,scrollbars=yes'
+  );
+}
+-->
+</script>
+</head>
+
+<body class="drawer drawer--left">
+  <nav class="navbar navbar-expand-md drawer-navbar" role="banner">
+    <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+    </button>
+    <div class="home d-inline d-lg-none">
+      <a href="./index.html">ホーム</a>
+    </div>
+    <form class="form-inline ml-auto" action="javascript:showPopup();" name="search" method="post">
+      <input id="search_box" name="keyword" class="form-control" type="search" placeholder="検索..." aria-label="検索...">
+      <button type="submit" class="btn btn-primary btn-sm" onClick="showPopup();">検索</button>
+    </form>
+  </nav>
+
+  <div class="pc-container">
+
+    <div class="drawer-nav" id="navbar" role="navigation">
+      <ul class="navbar-nav">
+        <li class="nav-item title">
+          【英語】Manufacturing Quality Requirements
+        </li>
+        <li class="nav-item lv1 close opendir(path)"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2.html">1.　Quality Requirements for Production</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0.html">1.1　Raw materials</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-0.html">1.1.1　General requirement for raw materials</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-0-0.html">1.1.1.1　General requirement for raw materials </a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-0-1.html">1.1.1.2　Quality assurance of water and carbon dioxide used as raw materials</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-1.html">1.1.2　Risk evaluation</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-0-1-0.html">1.1.2.1　Risk evaluation</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1.html">1.2　Packaging</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-0.html">1.2.1　General requirement for packaging</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-0-0.html">1.2.1.1　Packaging approval</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-0-1.html">1.2.1.2　General requirement</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-1.html">1.2.2　Evaluation procedures for packaging approval</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-1-1-0.html">1.2.2.1　Evaluation procedures for approval</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2.html">1.3　Production</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0.html">1.3.1　General requirement for production processes</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0-0.html">1.3.1.1　Sanitation management and pest control for equipment/buildings</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0-1.html">1.3.1.2　Employee sanitation/Brought-in item management</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-0-2.html">1.3.1.3　General requirement for process management</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-1.html">1.3.2　Raw material/packaging receiving</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-1-0.html">1.3.2.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-1-1.html">1.3.2.2　Individual raw materials/packaging</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-2.html">1.3.3　Raw material/packaging storage</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-2-0.html">1.3.3.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-2-1.html">1.3.3.2　Individual raw materials/packaging</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-3.html">1.3.4　Water treatment</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-3-0.html">1.3.4.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-3-1.html">1.3.4.2　Equipment details</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-4.html">1.3.5　Weighing/mixing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-4-0.html">1.3.5.1　Weighing/mixing</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5.html">1.3.6　Contents transfer/Liquid treatment</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-0.html">1.3.6.1　General requirement for contents transfer/liquid treatment equipment</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-1.html">1.3.6.2　Pipes</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-2.html">1.3.6.3　Pumps</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-3.html">1.3.6.4　Measuring instruments (thermometer/manometer)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-4.html">1.3.6.5　Valves</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-5.html">1.3.6.6　Tanks/Agitators</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-6.html">1.3.6.7　Homogenization</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-7.html">1.3.6.8　Liquid sterilization/Heat exchange (including coolers)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-8.html">1.3.6.9　UV sterilizer for contents</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-5-9.html">1.3.6.10　Line strainers</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-6.html">1.3.7　Preform production</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-6-0.html">1.3.7.1　Injection machine</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-7.html">1.3.8　Blow molding</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-7-0.html">1.3.8.1　Blow molding</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-8.html">1.3.9　Check before using packaging/Packaging transfer/Product transfer</a></li><li class="nav-item lv4 open nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-8-0.html">1.3.9.1　Check before using packaging</a></li><li class="nav-item lv4 open selected nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-8-1.html">1.3.9.2　Packaging/product transfer</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9.html">1.3.10　Empty packaging cleaning/Rinsing/Packaging sterilization</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-0.html">1.3.10.1　Water rinser</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-1.html">1.3.10.2　Air rinser</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-2.html">1.3.10.3　RGB bottle washing machines</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-9-3.html">1.3.10.4　UV sterilizers for packaging </a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10.html">1.3.11　Filling system</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-0.html">1.3.11.1　General requirement for filler</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-1.html">1.3.11.2　Cold filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-2.html">1.3.11.3　Hot filling/nitro hot filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-3.html">1.3.11.4　Aseptic filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-4.html">1.3.11.5　Aseptic filling (paper pack)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-5.html">1.3.11.6　Glass bottle filling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-10-6.html">1.3.11.7　Can filling</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-11.html">1.3.12　Neck rinsing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-11-0.html">1.3.12.1　Neck rinsing</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12.html">1.3.13　Sealing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-0.html">1.3.13.1　Capping</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-1.html">1.3.13.2　Can seaming</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-2.html">1.3.13.3　Crowning</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-3.html">1.3.13.4　Plastic cups</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-12-4.html">1.3.13.5　Pouch</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13.html">1.3.14　Post-sealing sterilization (retort/tunnel pasteurizer)/warmer</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13-0.html">1.3.14.1　Tunnel pasteurizer/warmer</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13-1.html">1.3.14.2　Retort</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-13-2.html">1.3.14.3　Hot filling tilting conveyor sterilization (See the hot filling chapter)</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-14.html">1.3.15　Labeling</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-14-0.html">1.3.15.1　General requirement</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-14-1.html">1.3.15.2　Individual</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-15.html">1.3.16　BBD coding</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-15-0.html">1.3.16.1　BBD coding</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16.html">1.3.17　Inspection guarantee</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16-0.html">1.3.17.1　Inspection guarantee design</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16-1.html">1.3.17.2　Inspection machines</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-16-2.html">1.3.17.3　Inline visual inspection</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-17.html">1.3.18　Shrink packing / carton packing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-17-0.html">1.3.18.1　Shrink packing / carton packing</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-18.html">1.3.19　Palletizing</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-18-0.html">1.3.19.1　Palletizing</a></li><li class="nav-item lv3 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-19.html">1.3.20　Warehouse</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-19-0.html">1.3.20.1　Storage environment/Inventory management</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-2-19-1.html">1.3.20.2　Inspection/Rework</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3.html">1.4　QC (product test, microbe test, decision for lot shipping, laboratory equipment)</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-0.html">1.4.1　Sampling inspection/Monitoring design</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-0-0.html">1.4.1.1　Sampling inspection/Monitoring design</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-0-1.html">1.4.1.2　Design of inspection items before shipment</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-1.html">1.4.2　Retained samples</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-1-0.html">1.4.2.1　Retained samples</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-2.html">1.4.3　Microbe test </a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-2-0.html">1.4.3.1　Microbe test </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-3.html">1.4.4　Physical/chemical test</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-3-0.html">1.4.4.1　Physical/chemical test </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-4.html">1.4.5　Sensory test</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-4-0.html">1.4.5.1　Sensory test</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-5.html">1.4.6　Inspection result trend management </a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-5-0.html">1.4.6.1　Inspection result trend management </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-6.html">1.4.7　Decision for shipping</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-6-0.html">1.4.7.1　Decision for shipping </a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-7.html">1.4.8　Measures for abnormalities</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-3-7-0.html">1.4.8.1　Measures for abnormalities </a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-4.html">1.5　Cleaning (CIP/COP)</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-4-0.html">1.5.1　Cleaning (CIP/COP)</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-4-0-0.html">1.5.1.1　Cleaning (CIP/COP)</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-5.html">1.6　SKU change work</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-5-0.html">1.6.1　SKU change work</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-5-0-0.html">1.6.1.1　SKU change work</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6.html">1.7　Change management/Test production</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-0.html">1.7.1　Change management</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-0-0.html">1.7.1.1　Change management</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-1.html">1.7.2　Test production</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-6-1-0.html">1.7.2.1　Test production</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7.html">1.8　Line/equipment validation and initial-phase production</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-0.html">1.8.1　Line/equipment validation</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-0-0.html">1.8.1.1　Line/equipment validation</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-0-1.html">1.8.1.2　Validation of aseptic system</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-1.html">1.8.2　Initial-phase production</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-7-1-0.html">1.8.2.1　Initial-phase production</a></li><li class="nav-item lv2 open"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8.html">1.9　Test methods</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-0.html">1.9.1　Microbe test</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-0-0.html">1.9.1.1　Microbe test method</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1.html">1.9.2　How to evaluate packaging sealing performance</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-0.html">1.9.2.1　PET</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-1.html">1.9.2.2　Can</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-2.html">1.9.2.3　Paper pack</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-3.html">1.9.2.4　Plastic cups</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-1-4.html">1.9.2.5　Pouch</a></li><li class="nav-item lv3 close"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-2.html">1.9.3　Physical/chemical test method</a></li><li class="nav-item lv4 close nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-2-8-2-0.html">1.9.3.1　Physical/chemical test method</a></li><li class="nav-item lv1 close opendir(path) nochild"><a class="icon-link" href="#"><span class="icon"></span></a><a class="nav-link" href="Manual-3.html">2.　Glossary</a></li>
+    </div>
+
+    <section>
+      <div class="title">
+        <div class="button">
+          <div class="home d-none d-lg-inline">
+            <a href="./index.html">ホーム</a>
+          </div>
+          <div class="print d-none d-lg-inline">
+            <a href="javascript:void(0)" onclick="window.print();return false;">印刷</a>
+          </div>
+        </div>
+        <div class="pagination">
+          <a href="Manual-2-2-8-0.html" class="active" id="btn_prev"><span class="prev"></span></a><a href="Manual-2-2-9.html" class="active" id="btn_next"><span class="next"></span></a>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="sectionDiv4_title" name="SearchTarget" id="NODEID-554360a7745add086"><span id="554360a7745add086">1.3.9.2　Packaging/product transfer</span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-119560a7745add1c1"><span id="119560a7745add1c1">a.　Prevention of foreign material contamination during transfer</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-814660a7745add283"><span id="814660a7745add283"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Foreign material contamination / Packaging appearance defect / Microbe contamination</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All packaging</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All lines</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-236160a7745adda21"><span id="236160a7745adda21"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-562960a7745ade161"><span id="562960a7745ade161"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-990360a7745ade9b8"><span id="990360a7745ade9b8"><div class="lv5Text">
+<strong>To prevent foreign materials or different liquids from being mixed in or sticking to primary packaging before filling or sealing</strong><br /><strong>To prevent microbe contamination during transfer</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-171060a7745adf24d"><span id="171060a7745adf24d"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-792160a7745adfa28"><span id="792160a7745adfa28"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-865860a7745ae01f1"><span id="865860a7745ae01f1"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆To keep the packaging insert equipment (PF inverter, can depalletizer, can lid unwrapper, cap inserter, etc.) clean, it is desirable to increase the cleanliness of a room with the insert equipment higher than other rooms or enclose the insert equipment itself.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆The equipment to transfer pre-sealed primary packaging must be enclosed or covered to protect foreign materials and insects. See the figure (Grease and living insects cannot be completely removed by a rinser).</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆To transfer packaging using compressed air, use a filter with air cleanliness appropriate for each filling method.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Example: Hot filling, CSD: MEPA or above (Air filter with particle collection efficiency of about 60 to 95 % mainly for particles with a diameter of 5 μm or less)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Example: Aseptic line: HEPA (Air filter with particle collection efficiency of 99.97 % or above for particles with a diameter of 0.3 μm and an initial pressure drop of 245 Pa or less in the rated air flow)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆The sorter of caps or crown corks must be stopped when the line is stopped. (This is because metal or resin chips are generated in the sorter, which leads to foreign material contamination. See the figure.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・A dust remover must be installed after the sorter.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-698560a7745ae18d3"><span id="698560a7745ae18d3"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-328460a7745ae20e3"><span id="328460a7745ae20e3"><div class="lv5Text">
+<strong><u>How to maintain/control</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-213460a7745ae28f5"><span id="213460a7745ae28f5"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 1<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" rowspan="2" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Clean the air filter, air outlet, cap hopper, sorter, chute, and conveyor cover. (See the figure.)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Check the conveyor cover for any damage or cracks that may lead to foreign material contamination.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">No dirt/dust or damage</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-974760a7745ae3630"><span id="974760a7745ae3630"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 2<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Check the pressure of the dust remover if it is installed.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Before starting production</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">The pressure operating limit must be set locally according to the equipment.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-549460a7745ae401a"><span id="549460a7745ae401a"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-249260a7745ae474d"><span id="249260a7745ae474d"><div class="lv5Text">
+<u><strong>Figure</strong></u>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-519060a7745ae4e55"><span id="519060a7745ae4e55"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.9.2_1_2_c.png"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-742360a7745ae50f4"><span id="742360a7745ae50f4"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.9.2_1_3_c.png"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-583860a7745ae539e"><span id="583860a7745ae539e"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.9.2_1_4_c.png"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-551560a7745ae5635"><span id="551560a7745ae5635"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.9.2_1_5_c.png"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-297460a7745ae58d3"><span id="297460a7745ae58d3"><div class="lv5Text">
+<u><strong>Background</strong></u>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-901760a7745ae5fd4"><span id="901760a7745ae5fd4"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.9.2.a.jpg"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-892260a7745ae627f"><span id="892260a7745ae627f"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-535360a7745ae6569"><span id="535360a7745ae6569">b.　Prevention of damage during transfer</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-690160a7745ae662d"><span id="690160a7745ae662d"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Sealing defect / Packaging appearance defect / Foreign material contamination</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All packaging</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All lines</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-841760a7745ae6d08"><span id="841760a7745ae6d08"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-703660a7745ae75bb"><span id="703660a7745ae75bb"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-722860a7745ae7e01"><span id="722860a7745ae7e01"><div class="lv5Text">
+<strong>To prevent packaging from being damaged during insert or transfer.</strong><br /><strong>To prevent damage to the opening of packaging particularly</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-216860a7745ae852f"><span id="216860a7745ae852f"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-779560a7745ae8e02"><span id="779560a7745ae8e02"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-489560a7745ae9641"><span id="489560a7745ae9641"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Avoid contact between packaging and hard parts. (Example: Depalletizer seat gripper, etc.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Set transfer conditions to prevent damage to packaging. (Example: Drop/collision during preform transfer, accumulated pressure of the preform and cap, strength of transfer air, conveyor speed, conveyor guide width/step (reverse step), etc.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-866360a7745aea421"><span id="866360a7745aea421"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-748460a7745aeab61"><span id="748460a7745aeab61"><div class="lv5Text">
+<u><strong>Figure</strong></u>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-450960a7745aeb288"><span id="450960a7745aeb288"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.9.2_2_1_c.png"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-743960a7745aeb527"><span id="743960a7745aeb527"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-735560a7745aeb833"><span id="735560a7745aeb833">c.　Prevention of falls during conveyor transfer</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-110760a7745aeb8f8"><span id="110760a7745aeb8f8"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Sealing defect / Packaging appearance defect</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All packaging</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All lines</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-390660a7745aec017"><span id="390660a7745aec017"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-727260a7745aec725"><span id="727260a7745aec725"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-428160a7745aece9e"><span id="428160a7745aece9e"><div class="lv5Text">
+<strong>To prevent falls or appearance defects due to lubricant during conveyor transfer</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-547760a7745aed6e3"><span id="547760a7745aed6e3"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-377660a7745aede7f"><span id="377660a7745aede7f"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-211960a7745aee7d8"><span id="211960a7745aee7d8"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Specify an appropriate conveyor speed to prevent products from falling.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆To prevent products from falling, the step between conveyors or guides must be level or forward (upstream side at a higher position). (See the figure.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="3%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">　</td>
+<td width="85%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">・Set a fall prevention guide for moving products onto the conveyor. (See the figure.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆The guide must not be tilted in a vertical direction.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Appearance defects on products due to excessive lubricant must be prevented.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆It is basically desirable to dispose of fallen packaging/products. (This is because fallen packaging/products cannot guarantee the sealing performance.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆For glass bottle transfer, also see the appropriate chapter.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-477260a7745af000a"><span id="477260a7745af000a"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-526260a7745af073a"><span id="526260a7745af073a"><div class="lv5Text">
+<strong><u>How to maintain/control</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-615360a7745af0f09"><span id="615360a7745af0f09"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 1<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Check the amount of conveyor lubricant and the transfer state of products.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Before starting production</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">An excessive amount of lubricant must not be used (See the figure). No falls. No contact between products. No unstably tilted product at the screw conveyor.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-347160a7745af19f4"><span id="347160a7745af19f4"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 2<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Perform change over for the guide according to the SOP. (No tilted guide or reverse step)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">At change over</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">The limit/condition must comply with the standards.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-777460a7745af2441"><span id="777460a7745af2441"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 3<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Perform maintenance on the transfer equipment (inter-conveyor step check, guide/conveyor replacement, rail/frame leveling, etc.).</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally for each equipment</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Set locally</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-968660a7745af2e8f"><span id="968660a7745af2e8f"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-264760a7745af35c5"><span id="264760a7745af35c5"><div class="lv5Text">
+<u><strong>Figure</strong></u>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-605160a7745af3dff"><span id="605160a7745af3dff"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.9.2_3_1_c.png"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-509960a7745af417f"><span id="509960a7745af417f"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.9.2_3_2_c.png"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-594460a7745b001d7"><span id="594460a7745b001d7"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.9.2_3_3_c.png"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-326160a7745b0048b"><span id="326160a7745b0048b"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-333960a7745b00781"><span id="333960a7745b00781">d.　Removal of residual packaging (prevention of different packaging)</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-478360a7745b00845"><span id="478360a7745b00845"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Sealing defect / Packaging appearance defect / Different packaging</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All packaging</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All lines</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-532160a7745b00f58"><span id="532160a7745b00f58"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-792360a7745b0175d"><span id="792360a7745b0175d"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-913860a7745b01f1d"><span id="913860a7745b01f1d"><div class="lv5Text">
+<strong>To remove packaging from the line at the end of production or when changing SKU to prevent it from being mixed in products to be produced next</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-861360a7745b02781"><span id="861360a7745b02781"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-237860a7745b02e97"><span id="237860a7745b02e97"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-882960a7745b0357b"><span id="882960a7745b0357b"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆In each equipment, clarify areas that need to be checked for any residual packaging and standardize the removal work.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-284560a7745b0409a"><span id="284560a7745b0409a"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-788560a7745b047a2"><span id="788560a7745b047a2"><div class="lv5Text">
+<strong><u>How to maintain/control</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-604460a7745b04f74"><span id="604460a7745b04f74"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="top" bgcolor="#FFFFFF" colspan="2" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;background-color:#D3EDFB;text-align: left;"> <strong>Task 1<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;background-color:#D3EDFB;text-align: center;"><img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/7.png?20201225144626" title="" style="vertical-align:baseline;max-width:100%;object-fit:contain;" onerror="this.src='../Mng/image/en/NoImage.jpg';"></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">Remove residual packaging from the production line.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">At the end of production, when changing production SKU, when the production line has been stopped for a long time (Example: 24 hours or longer)</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">No residual packaging</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-700960a7745b05d45"><span id="700960a7745b05d45"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-642160a7745b06438"><span id="642160a7745b06438"><div class="lv5Text">
+<u><strong>Figure</strong></u>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-195760a7745b06c2b"><span id="195760a7745b06c2b"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.9.2_4_1_c.png"  />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-622260a7745b06edd"><span id="622260a7745b06edd"></span>
+</div>
+<div class="sectionDiv5_title" name="SearchTarget" id="NODEID-989360a7745b071dc"><span id="989360a7745b071dc">e.　Glass bottle transfer</span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-695460a7745b072a0"><span id="695460a7745b072a0"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Defect mode</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Sealing defect / Foreign material contamination</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected packaging</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">Glass bottle</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Subjected line</strong></td>
+<td width="75%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;text-align: left;">All lines</td>
+</tr>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-602260a7745b079ac"><span id="602260a7745b079ac"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-204860a7745b08151"><span id="204860a7745b08151"><div class="lv5Text">
+<strong><u>Purpose</u></strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-257960a7745b08890"><span id="257960a7745b08890"><div class="lv5Text">
+<strong>To prevent bottles from being damaged or broken pieces from being mixed in products during glass bottle transfer</strong>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-738560a7745b090ba"><span id="738560a7745b090ba"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-628560a7745b097d7"><span id="628560a7745b097d7"><div class="lv5Text">
+<strong><u>What/how to achieve</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-805160a7745b09fe3"><span id="805160a7745b09fe3"><div class="lv5Table"><table width="98%" align="center" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆To prevent bottles from colliding with each other due to excessive impact, specify the conveyor speed and the speed check frequency.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #000000;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆Install a glass shattering prevention cover on each screw conveyor or between star wheels.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆It is desirable to prevent jamming in the later process by introducing a device to detect broken and fallen bottles and stop the equipment or remove the bottles. (See the backgrounds for the installation location and the detection mechanism.)</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="88%" valign="middle" bgcolor="#FFFFFF" colspan="2" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;"><p style="padding-left: 1em; text-indent: -1em;">◆It must be controlled to stop the conveyor when a glass bottle is jammed.</p></td>
+<td width="12%" valign="middle" bgcolor="#FFFFFF" style="font-size:10pt;border-top:1px solid #FFFFFF;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<colgroup>
+<col style='width:3%'>
+<col style='width:85%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-396360a7745b0b332"><span id="396360a7745b0b332"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-300760a7745b0ba38"><span id="300760a7745b0ba38"><div class="lv5Text">
+<strong><u>How to maintain/control</u></strong>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-840960a7745b0c155"><span id="840960a7745b0c155"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 1<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" rowspan="2" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">When a bottle is broken, stop the equipment and clean the shattering location according to the SOP.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">For how to handle broken bottles in the filler, capper, or crowner, see the glass bottle filling chapter.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">When a bottle is broken</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">In accordance with the SOP</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_table" name="SearchTarget" style="width: 98%;" id="NODEID-918560a7745b0cbed"><span id="918560a7745b0cbed"><div class="lv5Table"><table width="98%" align="" cellpadding="3" style="border-collapse:collapse;table-layout:fixed;word-break: break-word; word-wrap: break-word;"><tr><td width="100%" valign="top" bgcolor="#FFFFFF" colspan="3" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"> <strong>Task 2<img name="INLINE_IMAGE_TAG" alt="" src="image/mypicture/common/task.png?20210108162744" title="" style="vertical-align:baseline;height:1em;" onerror="this.src='../Mng/image/en/NoImage.jpg';"> </strong></td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Procedure</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">If a broken bottle is jammed in the screw conveyor, the damaged screw conveyor may damage products. Therefore, check thoroughly before restarting the production.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: center;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Frequency or timing</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">When a broken bottle is jammed in the screw conveyor</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<tr><td width="25%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;background-color:#D3EDFB;text-align: left;"><strong>Operating limit or standard condition</strong></td>
+<td width="63%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #FFFFFF;text-align: left;">The broken bottle must be securely removed, and the equipment must not be damaged.</td>
+<td width="12%" valign="top" bgcolor="#FFFFFF" style="font-size:12pt;border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #FFFFFF;border-right:1px solid #000000;text-align: left;">　</td>
+</tr>
+<colgroup>
+<col style='width:25%'>
+<col style='width:63%'>
+<col style='width:12%'>
+</colgroup>
+</table>
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-211260a7745b0d619"><span id="211260a7745b0d619"><div class="lv5Text">
+
+</div></span>
+</div>
+<div class="block_text" name="SearchTarget" style="width: 98%;" id="NODEID-786160a7745b0dd3f"><span id="786160a7745b0dd3f"><div class="lv5Text">
+<u><strong>Background</strong></u>
+</div></span>
+</div>
+<div class="block_image" name="SearchTarget" style="width: 98%;" id="NODEID-324860a7745b0e450"><span id="324860a7745b0e450"><div class="lv5Image"><table width="98%">
+<tr><td align="left">
+<div class="image_image"><img alt="" src="image/mypicture/common/1.3.9.2.e.jpg"  width="700" />
+</div>
+</td></tr>
+</table>
+</div></span>
+</div>
+<div class="block_next_page" name="SearchTarget" style="width: 98%;" id="NODEID-306360a7745b0e6f0"><span id="306360a7745b0e6f0"></span>
+</div>
+
+      </div>
+
+      <div class="title bottom">
+        <div class="button">
+          <div class="home d-none d-lg-inline">
+            <a href="./index.html">ホーム</a>
+          </div>
+          <div class="print d-none d-lg-inline">
+            <a href="javascript:void(0)" onclick="window.print();return false;">印刷</a>
+          </div>
+        </div>
+        <div class="pagination">
+          <a href="Manual-2-2-8-0.html" class="active" id="btn_prev"><span class="prev"></span></a><a href="Manual-2-2-9.html" class="active" id="btn_next"><span class="next"></span></a>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <footer>
+    COPYRIGHT © SUNTORY BEVERAGE & FOOD LIMITED. ALL RIGHTS RESERVED.
+  </footer>
+
+  <script src="./assets/js/vendor/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/vendor/iscroll.js"></script>
+  <script src="./assets/js/vendor/drawer.min.js"></script>
+  <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.drawer').drawer();
+    });
+  </script>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
